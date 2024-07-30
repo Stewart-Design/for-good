@@ -1,0 +1,23 @@
+{
+  "name": "for-good",
+  "version": "1.0.0",
+  "description": "For Good Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartdesignbrands/for-good.git"
+  },
+  "author": "Adam Glenn",
+  "bugs": {
+    "url": "https://github.com/stewartdesignbrands/for-good/issues"
+  },
+  "homepage": "https://github.com/stewartdesignbrands/for-good#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{{ $sass := resources.Get "scss/main.scss" }}
+{{ $toCssOpt := dict "transpiler" "libsass" "targetPath" "assets/css/style.css" }}
+{{ $css := $sass | toCSS $toCssOpt }}
+{{ if hugo.IsProduction }}
+  {{ $css = $css | postCSS | minify | fingerprint | resources.PostProcess }}
+{{ end }}
+
+<link
+  rel="stylesheet"
+  href="{{ $css.RelPermalink }}"
+  {{ if hugo.IsProduction -}} 
+    integrity="{{ $css.Data.Integrity }}"
+  {{- end }}
+/>
