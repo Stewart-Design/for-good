@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stewartdesignbrands/for-good.git"
+    "url": "git+https://github.com/Stewart-Design/for-good.git"
   },
   "author": "Adam Glenn",
   "bugs": {
-    "url": "https://github.com/stewartdesignbrands/for-good/issues"
+    "url": "https://github.com/Stewart-Design/for-good/issues"
   },
-  "homepage": "https://github.com/stewartdesignbrands/for-good#readme",
+  "homepage": "https://github.com/Stewart-Design/for-good#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "postcss": "^8.4.39",
