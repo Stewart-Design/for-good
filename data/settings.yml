@@ -1,4 +1,4 @@
-description: 
+description: We help yo-yo dieters lose weight fast with Semaglutide and build healthy habits to actually keep it off for good.
 site_menu:
   - menu_item: About You
     url: /
@@ -11,3 +11,15 @@ site_menu:
 cta:
   button_text: Take the quiz
   url:
+footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build healthy habits to actually keep it off for good.
+social_media_accounts:
+  - platform: Instagram
+    username: thecupcakeriecafefrose
+    url: https://instagram.com/
+  - platform: TikTok
+    username: thecupcakeriewv
+    url: https://tiktok.com/
+  - platform: YouTube
+    url: https://youtube.com/
+  - platform: Facebook
+    url: https://facebook.com/

@@ -1,3 +1,4 @@
+{{ $punchline := "/images/for-good-script.png" }}
 {{ with site.Data.homepage.mission }}
 <section class="pb-6 text-center bg-light" aria-labelledby="mission-label">
   {{ with .badge }}
@@ -21,7 +22,9 @@
         <div class="col-xl-8 mx-xl-auto">
           <p class="recoleta-light fw-bold fs-1">
             {{ .message}}
-            <span class="d-block den-basuky display-1 mt-n4">{{ .punchline }}</span>
+            <span class="d-block mt-n4">
+              <img loading="lazy" title="for good." src="{{ $punchline }}" width="200px" alt="For Good written in script" />
+            </span>
           </p>
         </div>
       </div>
