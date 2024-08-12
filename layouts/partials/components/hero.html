@@ -1,0 +1,49 @@
+{{ $image := "" }}
+{{ $alt := "" }}
+{{ with site.Data.homepage.hero }}
+  {{ if .photo }}
+    {{ $image = resources.Get .photo }}
+  {{ end }}
+  {{ if .alt }}
+    {{ $alt = .alt }}
+  {{ end }}
+  <main class="bg-light position-relative w-100 h-100 d-flex align-items-center w-100">
+    <div class="container">
+      <div class="row position-relative">
+        <div class="col-lg-7 d-flex align-items-center">
+          <div class="py-5 position-relative pe-xl-5">
+            <h1 class="display-3 recoleta-light lh-1 mb-3 mt-n1 pb-1 d-inline-block">{{ .heading }}</h1>
+            {{ if .subheading }}
+              <p class="fs-2">{{ .subheading }}</p>
+            {{ end }}
+            <p class="lead mb-4 fs-4">{{ .lede }}</p>
+            {{ if .cta }}
+              {{ range .cta }}
+                {{ partial "simple/button.html" . }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-lg-5 d-flex position-relative">
+          <div class="h-100 d-flex align-items-end">
+            <div class="h-100 position-absolute" style="right: 0; width: 54%;">
+              <div class="h-100 fg-bleed-right bg-primary" style="content: '';"></div>
+            </div>
+            {{ if $image }}
+              <div>
+                <img
+                  class="img-fluid mt-xl-4 position-relative pe-xl-7"
+                  srcset='{{ ( $image.Fit "576x661 webp Center" ).RelPermalink }} 576w, {{ ( $image.Fit "768x849 webp Center" ).RelPermalink }} 768w, {{ ( $image.Fit "992x1140 webp Center" ).RelPermalink }} 992w, {{ ( $image.Fit "1200x1380 webp Center" ).RelPermalink }} 1200w, {{ ( $image.Fit "1400x1610 webp Center" ).RelPermalink }} 1400w'
+                  sizes="(max-width: 576px) 576px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, 1400px"
+                  src='{{ ( $image.Fit "960x1102 webp Center" ).RelPermalink }}'
+                  alt=""
+                  style=""
+                />
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+{{ end }}

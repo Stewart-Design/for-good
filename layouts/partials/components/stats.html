@@ -1,0 +1,45 @@
+{{ with site.Data.homepage.stats }}
+<section class="pt-5 text-center" aria-labelledby="stats-label">
+  <div class="container">
+    <p class="mb-1">{{ .super_heading }}</p>
+    <h2 id="stats-label" class="recoleta-light display-3 mb-5">{{ .heading }}</h2>
+    <div class="row gx-lg-4">
+      {{ range .panels }}
+        <div class="col-md-6 col-lg-4 h-100 mb-4 flex-grow-1">
+          {{ with .badge }}
+            {{ $src := "" }}
+            {{ $alt := "" }}
+            {{ if .alt }}
+              {{ $alt = .alt }}
+            {{ end }}
+            {{ $src = resources.Get .src }}
+            <div class="d-flex justify-content-end align-items-center position-relative">
+              <img class="position-absolute" loading="lazy" src="{{ $src.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style="margin-bottom: -1rem; right: -3rem;" />
+            </div>
+          {{ end }}
+          <div class="pt-5 px-6 pb-4 bg-light rounded-3 h-100">
+            <p>
+              <span class="d-block h1 recoleta-medium lh-1">{{ .stat }}</span>
+              <span>{{ .copy }}</span>
+            </p>
+            {{ with .logos }}
+              {{ range . }}
+                {{ $logo := resources.Get .logo }}
+                {{ $height := float $logo.Height }}
+                {{ $width := float $logo.Width }}
+                {{ $alt := "" }}
+                {{ if .alt }}
+                  {{ $alt = .alt }}
+                {{ end }}
+                <div class="d-flex justify-content-center">
+                  <img loading="lazy" src='{{ ( $logo.Fit "100x60 webp Center" ).RelPermalink }}' alt="{{ $alt }}" />
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

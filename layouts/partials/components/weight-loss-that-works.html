@@ -1,0 +1,22 @@
+{{ with site.Data.homepage.weight_loss_that_works }}
+<section class="pt-6 pb-9 bg-light text-center" aria-labelledby="weight-loss-that-works-label">
+  <div class="container">
+    <h2 id="weight-loss-that-works-label" class="recoleta-medium display-4 mb-5">{{ .heading }}</h2>
+    <div class="row justify-content-center mb-4">
+      {{ range .items }}
+        <div class="col-md-4 col-xl-3">
+          {{ if .icon }}
+            {{ partial "simple/icon.html" ( dict "icon" .icon "alt" .alt "size" .size ) }}
+          {{ end }}
+          <p>{{ .copy }}</p>
+        </div>
+      {{ end }}
+    </div>
+    {{ if .cta }}
+      {{ range .cta }}
+        {{ partial "simple/button.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,21 @@
+{{ with site.Data.homepage.keep_it_off }}
+<section class="pt-5 pb-7" aria-labelledby="keep-it-off-label">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xl-11 col-xxl-10 mx-xl-auto">
+        <h2 id="keep-it-off-label" class="recoleta-light display-3 mb-5">{{ .heading }}</h2>
+      </div>
+    </div>
+    <ul class="list-unstyled text-start fg-ul-green-checkmarks fg-column-count-lg-2 fs-4">
+      {{ range .items }}
+        <li class="mb-4">{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ if .cta }}
+      {{ range .cta }}
+        {{ partial "simple/button.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

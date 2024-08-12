@@ -1,0 +1,17 @@
+{{ with site.Data.homepage.change_your_life }}
+<section class="text-center pb-12" aria-labelledby="change-your-lfe-label">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 col-xxl-10 mx-xl-auto">
+        <h2 id="change-your-lfe-label" class="recoleta-light display-3 mb-3">{{ .heading }}</h2>
+        <p class="fs-4 poppins-light mb-4">{{ .copy }}</p>
+        {{ if .cta }}
+          {{ range .cta }}
+            {{ partial "simple/button.html" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

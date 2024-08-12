@@ -1,0 +1,25 @@
+{{ $image := "" }}
+{{ $name := "" }}
+
+{{ with site.Data.homepage.average_loss }}
+  <section class="pb-6 text-center" aria-labelledby="average-loss-label">
+    <div class="container">
+      <h2 id="average-loss-label" class="recoleta-light text-center mb-5 display-5">{{ .heading }}{{ if .heading_bold}} <span class="recoleta-medium fw-bold">{{ .heading_bold }}</span>{{ end }}</h2>
+      <div class="row">
+        {{ range .profiles }}
+          {{ $name := .name }}
+          {{ if .alt }}
+            {{ $alt = .alt }}
+          {{ end }}
+          <div class="col">
+            {{ with .photo }}
+              {{ $image = resources.Get . }}
+              <img class="img-fluid rounded-3 mb-3" src='{{ ( $image.Fill "960x640 webp Center" ).RelPermalink }}' alt="Photo of {{ $name }}" />
+            {{ end }}
+            <p>{{ .name }} <span class="d-block fw-bold fs-5">- {{ .loss }}</span></p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

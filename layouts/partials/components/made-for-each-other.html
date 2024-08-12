@@ -1,0 +1,13 @@
+{{ with site.Data.homepage.made_for_each_other }}
+<section class="pt-6 pb-5" aria-labelledby="made-for-each-other-label">
+  <div class="container">
+    <p class="text-center">{{ .super_heading}} </p>
+    <h2 id="made-for-each-other-label" class="recoleta-medium display-3 text-center mb-5">{{ .heading }}</h2>
+    <ul class="fg-ul-green-checkmarks fg-column-count-lg-2 fs-4 poppins-light">
+      {{ range .items }}
+        <li class="mb-5">{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

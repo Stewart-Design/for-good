@@ -1,0 +1,19 @@
+{{ with site.Data.homepage.nothing_to_lose }}
+<section class="text-center pb-6" aria-labelledby="nothing-to-lose-label">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 col-xxl-10 mx-xl-auto">
+        <div class="bg-light rounded-4 p-5">
+          <h2 id="nothing-to-lose-label" class="recoleta-medium display-5 mb-3 fw-bold">{{ .heading }}</h2>
+          <p class="fs-5 mb-4">{{ .copy }}</p>
+          {{ if .cta }}
+            {{ range .cta }}
+              {{ partial "simple/button.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,30 @@
+// For Good
+
+// Primary
+$fg-pink: #F3828E;
+$cc-cream-tint: #f6f1ea;
+
+// Accent
+$cc-accent--frose: #B71F3A;
+$cc-accent--pink: #E56E89; // #F05689 will be final
+$cc-accent--mojito: #72D679;
+$cc-accent--manhattan: #EE2B28;
+$cc-accent--momosa: #FFD13A;
+
+// Neutral
+$cc-neutral--vino: #4D1021;
+$cc-neutral--dark-chocolate: #341716;
+$cc-neutral--cohiba: #723B28;
+$cc-neutral--mocha: #f5ebd9;
+
+$custom-colors: (
+  "pink": $fg-pink,
+  "frose": $cc-accent--frose,
+  "mojito": $cc-accent--mojito,
+  "manhattan": $cc-accent--manhattan,
+  "momosa": $cc-accent--momosa,
+  "vino": $cc-neutral--vino,
+  "dark-chocolate": $cc-neutral--dark-chocolate,
+  "cohiba": $cc-neutral--cohiba,
+  "mocha": $cc-neutral--mocha,
+);

@@ -1,0 +1,28 @@
+{{ $image := "" }}
+{{ $alt := "" }}
+
+{{ with site.Data.homepage.one_in_a_million }}
+  {{ if .alt }}
+    {{ $alt = .alt }}
+  {{ end }}
+  <section class="pb-6" aria-labelledby="one-in-a-million-label">
+    <div class="container">
+      <div class="row gx-xl-5">
+        <div class="col-xl-6 d-flex align-items-center">
+          <div>
+            <h2 id="one-in-a-million-label" class="recoleta-medium mb-3 h1 fw-bold">{{ .heading }}</h2>
+            <div class="fs-5">
+              {{ .copy }}
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          {{ with .photo }}
+            {{ $image = resources.Get . }}
+            <img loading="lazy" class="img-fluid rounded-5" src='{{ ( $image.Fill "960x640 webp Center" ).RelPermalink }}' alt="{{ $alt }}" />
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

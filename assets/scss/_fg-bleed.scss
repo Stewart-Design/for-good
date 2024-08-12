@@ -1,0 +1,13 @@
+$my-width: 1320px;
+
+@media screen and (min-width: $fg-bp-xl) {
+  .fg-bleed-left {
+    margin-left: calc((-100vw + #{$my-width}) / 2);
+    padding-left: calc((100vw - #{$my-width}) / 2);
+  }
+
+  .fg-bleed-right {
+    margin-right: calc((-100vw + #{$my-width}) / 2);
+    padding-right: calc((100vw - #{$my-width}) / 2);
+  }
+}

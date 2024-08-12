@@ -1,0 +1,52 @@
+{{ $badge := "" }}
+{{ $image := "" }}
+{{ $alt := "" }}
+{{ with site.Data.homepage.best_things }}
+  {{ if .photo }}
+    {{ $image = resources.Get .photo }}
+  {{ end }}
+  {{ if .alt }}
+    {{ $alt = .alt }}
+  {{ end }}
+  <section class="my-6 position-relative w-100 h-100 d-flex align-items-center w-100" aria-labelledby="best-things-label">    
+    <div class="container">
+      {{ with .badge }}
+        {{ $badge = resources.Get .src }}
+        {{ $alt = "" }}
+        {{ if .alt }}
+          {{ $alt = .alt }}
+        {{ end }}
+        <div class="position-relative d-flex align-items-center justify-content-start" style="z-index: 99;">
+          <img class="position-absolute" loading="lazy" src="{{ $badge.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; right: -3rem; transform: rotate(20deg);' />
+        </div>
+      {{ end }}
+      <div class="row position-relative border border-1 border-dark rounded-5">
+        <div class="col-lg-5 col-xl-4 me-lg-auto d-flex align-items-end justify-content-center justify-content-lg-start">
+          {{ if $image }}
+            <img
+              class="img-fluid mt-xl-4 position-relative"
+              srcset='{{ ( $image.Fit "576x248 webp Center" ).RelPermalink }} 576w, {{ ( $image.Fit "768x330 webp Center" ).RelPermalink }} 768w, {{ ( $image.Fit "992x427 webp Center" ).RelPermalink }} 992w, {{ ( $image.Fit "1200x516 webp Center" ).RelPermalink }} 1200w, {{ ( $image.Fit "1400x602 webp Center" ).RelPermalink }} 1400w, {{ ( $image.Fit "1800x771 webp Center" ).RelPermalink }} 1800w'
+              sizes="(max-width: 576px) 576px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, (max-width: 1400px) 1400px, 1800px"
+              src='{{ ( $image.Fit "1800x771 webp Center" ).RelPermalink }}'
+              alt=""
+              style=""
+            />
+          {{ end }}
+        </div>
+        <div class="col-lg-7 d-flex align-items-center">
+          <div class="py-6 position-relative pe-xl-5">
+            <h2 id="best-things-label" class="display-5 recoleta-medium lh-1 mb-4 mt-n1 pb-1 d-inline-block">{{ .heading }}</h2>
+            {{ if .items }}
+              <ul class="fg-ul-green-checkmarks list-unstyled mb-4 poppins-light">
+                {{ range .items }}
+                  <li>{{ .item }} <em>{{ .value }}</em></li>
+                {{ end }}
+              </ul>
+            {{ end }}
+            <p class="mb-0">{{ .postscript }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

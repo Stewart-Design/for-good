@@ -1,0 +1,17 @@
+{{ with site.Data.homepage.series_quit }}
+<section class="py-6 bg-dark text-white text-center" aria-labelledby="don-t-quit-label">
+  <div class="container">
+    <h2 id="don-t-quit-label" class="recoleta-medium display-5 mb-5">{{ .heading }}</h2>
+    <div class="row justify-content-center">
+      {{ range .items }}
+        <div class="col-md-4 col-xl-3">
+          {{ if .icon }}
+            {{ partial "simple/icon.html" ( dict "icon" .icon "alt" .alt "size" .size ) }}
+          {{ end }}
+          <p class="fs-5">{{ .copy }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

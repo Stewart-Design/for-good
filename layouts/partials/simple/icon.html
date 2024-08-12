@@ -1,0 +1,17 @@
+{{ $icon := resources.Get .icon }}
+
+{{ $alt := "" }}
+{{ $size := "80px" }}
+
+{{ if .alt }}
+  {{ $alt = .alt }}
+{{ end }}
+{{ if .size }}
+  {{ $size = .size }}
+{{ end }}
+
+<div class="d-flex w-100 align-items-center justify-content-center" style="height: 100px; width: 100px;">
+  <div class="ratio ratio-1x1 mb-3 mx-auto" style="height: {{ $size }}; width: {{ $size }}px;">
+    <img class="img-fluid" src="{{ $icon.RelPermalink }}" height="{{ $size }}" width="{{ $size }}" alt="{{ $alt }}" />
+  </div>
+</div>

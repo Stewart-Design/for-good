@@ -2,7 +2,12 @@ baseURL = 'https://forgoodweight.com/'
 languageCode = 'en-us'
 title = 'For Good'
 
+[params]
+  defaultButtonClasses = "btn btn-outline-pink border-2 mb-1 rounded-pill"
+
 [module]
   [module.hugoVersion]
     extended = true
     min = "0.116.0"
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"

@@ -1,0 +1,22 @@
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand d-inline-block py-3" href="/"><img title="For Good: Weight Loss That Works" src="for-good-logo.svg" alt="For Good logo" width="150px" height="" /></a>
+    <div>
+      {{ with site.Data.settings.cta }}{{ partial "simple/button.html" . }}{{ end }}
+      <button class="navbar-toggler border-0 py-2 mb-2 text-dark ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> <span class="visually-hidden">Menu</span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 fs-5 me-4">
+        {{- with site.Data.settings.site_menu }}
+          {{- range . }}
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="{{ .url }}">{{ .menu_item }}</a>
+            </li>
+          {{- end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,31 @@
+{{ with site.Data.homepage.mission }}
+<section class="pb-6 text-center bg-light" aria-labelledby="mission-label">
+  {{ with .badge }}
+    {{ $image := resources.Get .src }}
+    {{ $alt := "" }}
+    {{ if .alt }}
+      {{ $alt = .alt }}
+    {{ end }}
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-5 col-xl-4 mx-auto position-relative d-flex align-items-center justify-content-center">
+          <img class="img-fluid position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" />
+        </div>
+      </div>
+    </div>
+  {{ end }}
+  <div class="mt-7">
+    <h2 id="mission-label" class="visually-hidden">Mission</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 mx-xl-auto">
+          <p class="recoleta-light fw-bold fs-1">
+            {{ .message}}
+            <span class="d-block den-basuky display-1 mt-n4">{{ .punchline }}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

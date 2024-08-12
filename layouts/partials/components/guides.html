@@ -1,0 +1,98 @@
+{{ $order := "" }}
+{{ $image := "" }}
+{{ $imageAlt := "" }}
+{{ $rotation := "" }}
+{{ $offset := "" }}
+{{ $horizontalPosition := "" }}
+{{ $verticalPosition := "" }}
+{{ with site.Data.homepage.guides }}
+<section class="pt-6 pb-4" aria-labelledby="guides-label">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-10 col-xxl-9 mx-xl-auto">
+        <h2 id="guides-label" class="recoleta-light display-3 mb-6 text-center">{{ .heading }}</h2>
+      </div>
+    </div>
+    {{ range $i, $_ := .guides }}
+
+      {{ if not ( modBool $i 2 ) }}
+        {{ $order = "order-3" }}
+        {{ $rotation = "20" }}
+        {{ $offset = "right: -3" }}
+        {{ $verticalPosition = "bottom" }}
+      {{ else }}
+        {{ $order = "order-1" }}
+        {{ $rotation = "-20" }}
+        {{ $offset = "left: -3" }}
+        {{ $verticalPosition = "top" }}
+      {{ end }}
+
+      {{ if .photo_alt }}
+        {{ $imageAlt = .photo_alt }}
+      {{ end }}
+      
+      <div class="row mb-5 gutter-xl-5">
+        <div class="col-xxl-10 mx-xxl-auto">
+          <div class="row gx-xl-5">
+            <div class="col-xl-5 col-xxl-4 {{ $order }}">
+              {{ if eq $verticalPosition "top" }}
+                {{ with .badge }}
+                  {{ $image := resources.Get .src }}
+                  {{ $alt := "" }}
+                  {{ if .alt }}
+                    {{ $alt = .alt }}
+                  {{ end }}
+                  <div class="position-relative d-flex align-items-center justify-content-start">
+                    <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
+                  </div>
+                {{ end }}
+              {{ end }}
+              {{ with .photo }}
+                {{ $image = resources.Get . }}
+                <img class="img-fluid rounded-3" leading="lazy" src='{{ ( $image.Fill "960x960 webp Center" ).RelPermalink }}' alt="{{ $imageAlt }}" />
+              {{ end }}
+              {{ if eq $verticalPosition "bottom" }}
+                {{ with .badge }}
+                  {{ $image := resources.Get .src }}
+                  {{ $alt := "" }}
+                  {{ if .alt }}
+                    {{ $alt = .alt }}
+                  {{ end }}
+                  <div class="position-relative d-flex align-items-center justify-content-start">
+                    <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="col-xl-7 col-xxl-8 order-2 d-flex align-items-center">
+              <div>
+                <h3 class="recoleta-medium fw-bold">{{ .name }}</h3>
+                <ul class="fs-5">
+                  {{ range .items }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+                {{ if .logos }}
+                  <div class="d-flex justify-content-start align-items-center">
+                    {{ range .logos }}
+                      {{ $logo := "" }}
+                      {{ $alt := "" }}
+                      {{ if .alt }}
+                        {{ $alt = .alt }}
+                      {{ end }}
+                      {{ with .logo }}
+                        {{ $logo = resources.Get . }}
+                        <img class="me-3" loading="lazy" src='{{ ( $logo.Fit "60x60 webp Center" ).RelPermalink }}' alt="{{ $alt }}"/>
+                      {{ end }}
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

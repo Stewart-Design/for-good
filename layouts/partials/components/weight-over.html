@@ -1,0 +1,15 @@
+{{ with site.Data.homepage.weight_over }}
+<section class="py-6 text-center bg-light text-center" aria-labelledby="weight-over-label">
+  <div class="container">
+    <h2 id="weight-over-label" class="recoleta-medium display-4 mb-3">{{ .heading }}</h2>
+    <p class="fs-2 poppins-light mb-3">
+      {{ .copy }}
+    </p>
+    {{ if .cta }}
+      {{ range .cta }}
+        {{ partial "simple/button.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
