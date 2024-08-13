@@ -7,8 +7,8 @@
   {{ end }}
   <section class="pb-6" aria-labelledby="one-in-a-million-label">
     <div class="container">
-      <div class="row gx-xl-5">
-        <div class="col-xl-6 d-flex align-items-center">
+      <div class="row gx-lg-5">
+        <div class="col-lg-6 d-flex align-items-center mb-4 mb-lg-0">
           <div>
             <h2 id="one-in-a-million-label" class="recoleta-medium mb-3 h1 fw-bold">{{ .heading }}</h2>
             <div class="fs-5">
@@ -16,7 +16,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-6">
+        <div class="col-lg-6">
           {{ with .photo }}
             {{ $image = resources.Get . }}
             <img loading="lazy" class="img-fluid rounded-5" src='{{ ( $image.Fill "960x640 webp Center" ).RelPermalink }}' alt="{{ $alt }}" />

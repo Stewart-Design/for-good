@@ -1,13 +1,26 @@
-$my-width: 1320px;
+$lg-width: 960px;
+$xl-width: 1320px;
 
-@media screen and (min-width: $fg-bp-xl) {
+@media screen and (min-width: $fg-bp-lg) {
   .fg-bleed-left {
-    margin-left: calc((-100vw + #{$my-width}) / 2);
-    padding-left: calc((100vw - #{$my-width}) / 2);
+    margin-left: calc((-100vw + #{$lg-width}) / 2);
+    padding-left: calc((100vw - #{$lg-width}) / 2);
   }
 
   .fg-bleed-right {
-    margin-right: calc((-100vw + #{$my-width}) / 2);
-    padding-right: calc((100vw - #{$my-width}) / 2);
+    margin-right: calc((-100vw + #{$lg-width}) / 2);
+    padding-right: calc((100vw - #{$lg-width}) / 2);
+  }
+}
+
+@media screen and (min-width: $fg-bp-xl) {
+  .fg-bleed-left {
+    margin-left: calc((-100vw + #{$xl-width}) / 2);
+    padding-left: calc((100vw - #{$xl-width}) / 2);
+  }
+
+  .fg-bleed-right {
+    margin-right: calc((-100vw + #{$xl-width}) / 2);
+    padding-right: calc((100vw - #{$xl-width}) / 2);
   }
 }

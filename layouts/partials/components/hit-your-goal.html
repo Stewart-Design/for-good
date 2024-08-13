@@ -7,7 +7,7 @@
   <div class="container mt-n10">
     <div class="row">
       {{ $image := "images/sticky-note.png" }}
-      <div class="col-6 col-lg-5 col-xl-4 mx-auto position-relative d-flex align-items-center justify-content-center">
+      <div class="col-8 col-lg-5 col-xl-4 mx-auto position-relative d-flex align-items-center justify-content-center">
         <img class="img-fluid me-n5" loading="lazy" src="{{ $image }}" height="695px" width="1000px" alt="Slice of pizza with dripping cheese" />
       </div>
     </div>
@@ -23,9 +23,9 @@
     {{ range $i, $_ := .items }}
 
       {{ if not ( modBool $i 2 ) }}
-        {{ $order = "order-3" }}
+        {{ $order = "order-lg-3" }}
       {{ else }}
-        {{ $order = "order-1" }}
+        {{ $order = "order-lg-1" }}
       {{ end }}
 
       {{ if .photo_alt }}
@@ -33,7 +33,7 @@
       {{ end }}
       
       <div class="row my-5 gx-xl-6">
-        <div class="col-xl-6 {{ $order }}">
+        <div class="col-lg-6 {{ $order }} mb-4 mb-lg-0">
           {{ if .testimonial }}
             {{ with .testimonial }}
               {{ $name := .name }}
@@ -64,7 +64,7 @@
             <img loading="lazy" class="img-fluid rounded-4" src='{{ ( $image.Fill "960x540 webp Center" ).RelPermalink }}' alt="{{ $imageAlt }}" />
           {{ end }}
         </div>
-        <div class="col-xl-6 order-2 d-flex align-items-center">
+        <div class="col-lg-6 order-2 d-flex align-items-center mb-4 mb-lg-0">
           <div>
             <h3 class="recoleta-medium fw-bold mb-4">{{ .heading }}</h3>
             <p class="mb-4 poppins-light">{{ .copy }}</p>
