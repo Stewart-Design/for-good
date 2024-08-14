@@ -21,12 +21,14 @@ members:
   url: "https://"
 social_media_accounts:
   - platform: Instagram
-    username: thecupcakeriecafefrose
+    username: forgood
     url: https://instagram.com/
   - platform: TikTok
-    username: thecupcakeriewv
+    username: forgood
     url: https://tiktok.com/
   - platform: YouTube
+    username: forgood
     url: https://youtube.com/
   - platform: Facebook
+    username: forgood
     url: https://facebook.com/

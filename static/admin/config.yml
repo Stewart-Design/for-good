@@ -76,10 +76,10 @@ collections:
             widget: "string"
             required: false
           - label: "Chat with us"
-            name: "chat_with_us"
+            name: "chat"
             widget: "object"
             fields:
-              - { label: "Text", name: "text", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
               - { label: "URL", name: "url", widget: "string", required: false }
           - label: "Phone"
             name: "phone"
@@ -89,7 +89,7 @@ collections:
             name: "members"
             widget: "object"
             fields:
-              - { label: "Text", name: "text", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
               - { label: "URL", name: "url", widget: "string", required: false }
           - label: "Social Media Accounts"
             name: "social_media_accounts"
