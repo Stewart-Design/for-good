@@ -12,6 +12,13 @@ cta:
   button_text: Take the quiz
   url:
 footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build healthy habits to actually keep it off for good.
+chat:
+  title: Chat with us
+  url: "https://"
+phone: (304) 123-4567
+members:
+  title: Members
+  url: "https://"
 social_media_accounts:
   - platform: Instagram
     username: thecupcakeriecafefrose

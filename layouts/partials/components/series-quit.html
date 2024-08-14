@@ -2,9 +2,9 @@
 <section class="py-6 bg-dark text-white text-center" aria-labelledby="don-t-quit-label">
   <div class="container">
     <h2 id="don-t-quit-label" class="recoleta-medium display-5 mb-5">{{ .heading }}</h2>
-    <div class="row justify-content-center">
+    <div class="row justify-content-md-between justify-content-lg-center">
       {{ range .items }}
-        <div class="col-md-4 col-xl-3">
+        <div class="col-md-3 mb-4 mb-md-0">
           {{ if .icon }}
             {{ partial "simple/icon.html" ( dict "icon" .icon "alt" .alt "size" .size ) }}
           {{ end }}

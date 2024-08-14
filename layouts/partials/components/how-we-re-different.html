@@ -14,30 +14,34 @@
       </div>
     </div>
     <div class="row">
-      <div id="testimonialsCarousel" class="carousel carousel-dark slide">
-        <div class="carousel-inner" role="listbox">
-          {{ range $i, $_ := .reviews }}
-            <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="px-2 h-100">
-                  <div class="p-4 bg-light rounded-3 h-100">
-                    <p class="small">{{ .name }}</p>
-                    <img class="mb-3" src="{{ $stars }}" height="20px" width="150px" alt="5-star review icon" />
-                    <blockquote class="recoleta-light fs-5">
-                      “{{ .quote }}”
-                    </blockquote>
+      <div class="col-10 col-xxl mx-auto">
+        <div class="row">
+          <div id="testimonialsCarousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner" role="listbox">
+              {{ range $i, $_ := .reviews }}
+                <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="px-2 h-100">
+                      <div class="p-4 bg-light rounded-3 h-100">
+                        <p class="small">{{ .name }}</p>
+                        <img class="mb-3" src="{{ $stars }}" height="20px" width="150px" alt="5-star review icon" />
+                        <blockquote class="recoleta-light fs-5">
+                          “{{ .quote }}”
+                        </blockquote>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              {{ end }}
             </div>
-          {{ end }}
+            <a class="carousel-control-prev bg-transparent w-aut" href="#testimonialsCarousel" role="button" data-bs-slide="prev" style="width: 6%; left: -6%;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut" href="#testimonialsCarousel" role="button" data-bs-slide="next" style="width: 6%; right: -6%;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+          </div>
         </div>
-        <a class="carousel-control-prev bg-transparent w-aut" href="#testimonialsCarousel" role="button" data-bs-slide="prev" style="width: 6%; left: -6%;">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next bg-transparent w-aut" href="#testimonialsCarousel" role="button" data-bs-slide="next" style="width: 6%; right: -6%;">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
       </div>
     </div>
   </div>

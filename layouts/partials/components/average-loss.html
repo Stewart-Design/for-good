@@ -11,7 +11,7 @@
           {{ if .alt }}
             {{ $alt = .alt }}
           {{ end }}
-          <div class="col">
+          <div class="col-sm-6 col-lg-3">
             {{ with .photo }}
               {{ $image = resources.Get . }}
               <img class="img-fluid rounded-3 mb-3" src='{{ ( $image.Fill "960x640 webp Center" ).RelPermalink }}' alt="Photo of {{ $name }}" />

@@ -16,12 +16,12 @@
     {{ range $i, $_ := .guides }}
 
       {{ if not ( modBool $i 2 ) }}
-        {{ $order = "order-lg-3" }}
+        {{ $order = "order-md-3" }}
         {{ $rotation = "20" }}
         {{ $offset = "right: -3" }}
         {{ $verticalPosition = "bottom" }}
       {{ else }}
-        {{ $order = "order-lg-1" }}
+        {{ $order = "order-md-1" }}
         {{ $rotation = "-20" }}
         {{ $offset = "left: -3" }}
         {{ $verticalPosition = "top" }}
@@ -31,41 +31,43 @@
         {{ $imageAlt = .photo_alt }}
       {{ end }}
       
-      <div class="row mb-5 gutter-xl-5">
-        <div class="col-xxl-10 mx-xxl-auto">
-          <div class="row gx-xl-5">
-            <div class="col-lg-5 col-xxl-4 {{ $order }}">
-              {{ if eq $verticalPosition "top" }}
-                {{ with .badge }}
-                  {{ $image := resources.Get .src }}
-                  {{ $alt := "" }}
-                  {{ if .alt }}
-                    {{ $alt = .alt }}
+      <div class="row mb-5 gutter-xl-5 justify-content-center">
+        <div class="col-9 col-xxl mx-auto">
+          <div class="row gx-xxl-5">
+            <div class="col-md-5 col-xxl-4 {{ $order }} d-xxl-flex align-items-center">
+              <div class="mb-4 mb-md-0">
+                {{ if eq $verticalPosition "top" }}
+                  {{ with .badge }}
+                    {{ $image := resources.Get .src }}
+                    {{ $alt := "" }}
+                    {{ if .alt }}
+                      {{ $alt = .alt }}
+                    {{ end }}
+                    <div class="position-relative d-flex align-items-center justify-content-start">
+                      <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
+                    </div>
                   {{ end }}
-                  <div class="position-relative d-flex align-items-center justify-content-start">
-                    <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
-                  </div>
                 {{ end }}
-              {{ end }}
-              {{ with .photo }}
-                {{ $image = resources.Get . }}
-                <img class="img-fluid rounded-3 mb-4" leading="lazy" src='{{ ( $image.Fill "960x960 webp Center" ).RelPermalink }}' alt="{{ $imageAlt }}" />
-              {{ end }}
-              {{ if eq $verticalPosition "bottom" }}
-                {{ with .badge }}
-                  {{ $image := resources.Get .src }}
-                  {{ $alt := "" }}
-                  {{ if .alt }}
-                    {{ $alt = .alt }}
+                {{ with .photo }}
+                  {{ $image = resources.Get . }}
+                  <img class="img-fluid rounded-3" leading="lazy" src='{{ ( $image.Fill "960x960 webp Center" ).RelPermalink }}' alt="{{ $imageAlt }}" />
+                {{ end }}
+                {{ if eq $verticalPosition "bottom" }}
+                  {{ with .badge }}
+                    {{ $image := resources.Get .src }}
+                    {{ $alt := "" }}
+                    {{ if .alt }}
+                      {{ $alt = .alt }}
+                    {{ end }}
+                    <div class="position-relative d-flex align-items-center justify-content-start">
+                      <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
+                    </div>
                   {{ end }}
-                  <div class="position-relative d-flex align-items-center justify-content-start">
-                    <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
-                  </div>
                 {{ end }}
-              {{ end }}
+              </div>
             </div>
-            <div class="col-lg-7 col-xxl-8 order-2 d-flex align-items-center">
-              <div>
+            <div class="col-md-7 col-xxl-8 order-2 d-flex align-items-center">
+              <div class="mb-4 mb-md-0">
                 <h3 class="recoleta-medium fw-bold">{{ .name }}</h3>
                 <ul class="fs-5">
                   {{ range .items }}

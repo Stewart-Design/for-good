@@ -1,3 +1,4 @@
+{{ $linkClasses := "text-white text-decoration-none" }}
 {{ with site.Data.settings }}
 <footer class="pt-5 pb-4 bg-dark text-white">
   <!-- Comment -->
@@ -5,33 +6,41 @@
     <div class="row mb-5">
       <div class="col-xxl-10">
         <div class="row">
-          <div class="col-xl-4">
+          <div class="col-lg-4">
             <img class="mb-4" title="For Good: Weight Loss That Works" src="for-good-logo-white.svg" alt="For Good logo" width="150px" height="" />
             <p class="text-dark-emphasis small">{{ .footer_copy }}</p>
           </div>
-          <div class="col-xl-7 ms-xl-auto lh-lg">
+          <div class="col-lg-8 col-xl-7 ms-xl-auto lh-lg">
             <div class="row">
-              <div class="col">
+              <div class="col-md">
                 <ul class="list-unstyled">
                   {{- with .site_menu }}
                     {{- range . }}
                       <li>
-                        <a class="text-white text-decoration-none" href="{{ .url }}">{{ .menu_item }}</a>
+                        <a class="{{ $linkClasses }}" href="{{ .url }}">{{ .menu_item }}</a>
                       </li>
                     {{- end }}
                   {{ end }}
                 </ul>
               </div>
-              <div class="col">
+              <div class="col-md">
                 <ul class="list-unstyled">
-
+                  {{ with .chat }}
+                    <li><a href="{{ .url }}" class="{{ $linkClasses }}">{{ .title }}</a></li>
+                  {{ end }}
+                  {{ with .phone }}
+                    <li><a href="tel:{{ . }}" class="{{ $linkClasses }}">{{ . }}</a></li>
+                  {{ end }}
+                  {{ with .members }}
+                    <li><a href="{{ .url }}" class="{{ $linkClasses }}">{{ .title }}</a></li>
+                  {{ end }}
                 </ul>
               </div>
-              <div class="col">
+              <div class="col-md">
                 <ul class="list-unstyled">
                   {{ range .social_media_accounts }}
                     <li>
-                      <a class="text-white text-decoration-none" href="{{ .url }}">{{ .platform }}</a>
+                      <a class="{{ $linkClasses }}" href="{{ .url }}">{{ .platform }}</a>
                     </li>
                   {{ end }}
                 </ul>

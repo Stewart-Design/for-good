@@ -248,8 +248,8 @@ best_things:
     src: /img/badge-welcome-gift.svg
     alt: "Badge: Welcome Gift"
   heading: Some of the best things in life are free…
-  photo:
-  alt:
+  photo: /img/gifts.webp
+  alt: Photo of free gifts (Stanley, magazine, scale, measuring tape)
   items:
     - item: Stanley Quencher 40oz Tumbler
       value: ($50 value)
