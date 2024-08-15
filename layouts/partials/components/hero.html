@@ -32,6 +32,7 @@
             {{ if $image }}
               <div>
                 <img
+                  loading="lazy"
                   class="img-fluid mt-xl-4 position-relative pe-xl-7"
                   srcset='{{ ( $image.Fit "576x661 webp Center" ).RelPermalink }} 576w, {{ ( $image.Fit "768x849 webp Center" ).RelPermalink }} 768w, {{ ( $image.Fit "992x1140 webp Center" ).RelPermalink }} 992w, {{ ( $image.Fit "1200x1380 webp Center" ).RelPermalink }} 1200w, {{ ( $image.Fit "1400x1610 webp Center" ).RelPermalink }} 1400w'
                   sizes="(max-width: 576px) 576px, (max-width: 768px) 768px, (max-width: 992px) 992px, (max-width: 1200px) 1200px, 1400px"

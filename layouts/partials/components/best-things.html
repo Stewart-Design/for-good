@@ -27,6 +27,7 @@
               {{ if $image }}
                 <div class="p-5 p-xl-6 me-lg-n5 me-xl-n6 me-xxl-0">
                   <img
+                    loading="lazy"
                     class="img-fluid"
                     src='{{ ( $image.Fit "960x640 webp Center" ).RelPermalink }}'
                     alt="{{ $alt }}"

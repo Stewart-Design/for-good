@@ -1,29 +1,11 @@
-@font-face {
-	font-family: 'Poppins-Regular';
-	src: url('/fonts/recoleta/Poppins-Regular.eot');
-	src: url('/fonts/recoleta/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-             url('/fonts/recoleta/Poppins-Regular.woff2') format('woff2'),
-	     url('/fonts/recoleta/Poppins-Regular.woff') format('woff'),
-	     url('/fonts/recoleta/Poppins-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Poppins-Light';
-	src: url('/fonts/recoleta/Poppins-Light.eot');
-	src: url('/fonts/recoleta/Poppins-Light.eot?#iefix') format('embedded-opentype'),
-             url('/fonts/recoleta/Poppins-Light.woff2') format('woff2'),
-	     url('/fonts/recoleta/Poppins-Light.woff') format('woff'),
-	     url('/fonts/recoleta/Poppins-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-.poppins {
-  font-family: $poppins !important;
-}
-
 .poppins-light {
-  font-family: $poppins-light !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
