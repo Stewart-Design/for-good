@@ -38,14 +38,14 @@ collections:
                   - { label: "Button Text", name: "button_text", widget: "string" }
                   - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string", required: false }
-          - label: "Blob"
-            name: blob
-            widget: object
+          - label: "Ready to Give Up"
+            name: "series_quit"
+            widget: "object"
             collapsed: true
             fields:
               - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Tries"
-                name: "tries"
+              - label: "Items"
+                name: "items"
                 widget: "list"
                 collapsed: true
                 fields:
@@ -53,22 +53,39 @@ collections:
                   - { label: "Alt Text", name: "alt", widget: "string", required: false }
                   - { label: "Copy", name: "copy", widget: "string" }
                   - { label: "Size", name: "size", widget: "number", required: false }
-              - label: "Before and After"
-                name: "before_after"
-                widget: "object"
-                collapsed: true
-                fields:
-                  - { label: "Before", name: "before", widget: "image" }
-                  - { label: "After", name: "after", widget: "image" }
-                  - { label: "After After", name: "after_after", widget: "image" }
-              - { label: "Heading 2", name: "heading_2", widget: "string" }
-              - label: "Struggles"
-                name: "struggles"
+          - label: "Stats"
+            name: "stats"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Super Heading", name: "super_heading", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Panels"
+                name: "panels"
                 widget: "list"
                 collapsed: true
                 fields:
-                  - { label: "Struggle", name: "struggle", widget: "string" }
-              - { label: "CTA Heading", name: "cta_heading", widget: "string" }
+                  - { label: "Stat", name: "stat", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "string" }
+                  - label: "Logos"
+                    name: "logos"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - { label: "Logo", name: "logo", widget: "image" }
+                      - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Keep It Off"
+            name: "keep_it_off"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Item", name: "item", widget: "string" }
               - label: "Call to Action"
                 name: "cta"
                 widget: list
@@ -77,6 +94,171 @@ collections:
                   - { label: "Button Text", name: "button_text", widget: "string" }
                   - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string", required: false }
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Badge"
+                name: "badge"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "SRC", name: "src", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+              - { label: "Message", name: "message", widget: "text" }
+          - label: "Find Your Soul Weight"
+            name: "guides"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Guides"
+                name: "guides"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - label: "Items"
+                    name: "items"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - { label: "Item", name: "item", widget: "markdown" }
+                  - { label: "Photo", name: "photo", widget: "image" }
+                  - { label: "Photo Alt Text", name: "photo_alt", widget: "string" }
+                  - label: "Badge"
+                    name: "badge"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - { label: "SRC", name: "src", widget: "image", required: false }
+                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
+                  - label: "Logos"
+                    name: "logos"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - { label: "Logo", name: "logo", widget: "image", required: false }
+                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
+          - label: "Average Loss"
+            name: "average_loss"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Heading Bold", name: "heading_bold", widget: "string" }
+              - label: "Profiles"
+                name: "profiles"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Photo", name: "photo", widget: "image" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Loss", name: "loss", widget: "string" }
+          - label: "Weight is Over"
+            name: "weight_over"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Copy", name: "copy", widget: "markdown" }
+              - label: "Call to Action"
+                name: "cta"
+                widget: list
+                required: false
+                fields:
+                  - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+          - label: "How We're Different"
+            name: "how_we_re_different"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Super Heading", name: "super_heading", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Copy", name: "lead", widget: "markdown" }
+              - label: "Reviews"
+                name: "reviews"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Quote", name: "quote", widget: "markdown" }
+          - label: "One in 235 Million"
+            name: "one_in_a_million"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Copy", name: "copy", widget: "markdown" }
+              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Photo Alt", name: "alt", widget: "string" }
+          - label: "Weight Loss That Works"
+            name: "weight_loss_that_works"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Icon", name: "icon", widget: "image" }
+                  - { label: "Alt Text", name: "icon_alt", widget: "string" }
+                  - { label: "Size:", name: "size", widget: "number", required: false }
+                  - { label: "Copy", name: "copy", widget: "string", required: false }
+              - label: "Call to Action"
+                name: "cta"
+                widget: list
+                required: false
+                fields:
+                  - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+          - label: "Hit Your Goal"
+            name: "hit_your_goal"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Super Heading", name: "super_heading", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead", name: "lead", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Photo", name: "photo", widget: "image", required: false }
+                  - { label: "Photo Alt", name: "photo_alt", widget: "string", required: false }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "text" }
+                  - label: "List"
+                    name: "list"
+                    widget: "list"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Item", name: "item", widget: "string", required: false }
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "object"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Name", name: "name", widget: "string", required: false }
+                      - { label: "Quote", name: "quote", widget: "markdown", required: false }
+                      - { label: "Photo", name: "photo", widget: "image", required: false }
+                  - label: "Call to Action"
+                    name: "cta"
+                    widget: list
+                    required: false
+                    fields:
+                      - { label: "Button Text", name: "button_text", widget: "string", required: false }
+                      - { label: "Size", name: "size", widget: "string", required: false }
+                      - { label: "URL", name: "url", widget: "string", required: false }
   - label: "Settings"
     name: "settings"
     create: false
