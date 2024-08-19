@@ -203,7 +203,7 @@ collections:
                   - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string" }
           - label: "Yo-Yo No 'Mo"
-            name: "yo-yo-no-mo"
+            name: "yo_yo_no_mo"
             widget: "object"
             collapsed: true
             fields:
