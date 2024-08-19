@@ -219,6 +219,21 @@ collections:
                   - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string" }
               - { label: "Postscript", name: "postscript", widget: "string" }
+          - label: "We Get It"
+            name: "we_get_it"
+            widget: "object"
+            collapsed: "true"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Copy", name: "copy", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "image" }
+                  - { label: "Icon Alt Text", name: "alt", widget: "string", required: false }
+                  - { label: "Icon Size:", name: "size", widget: "number", required: false }
   - label: "Settings"
     name: "settings"
     create: false
