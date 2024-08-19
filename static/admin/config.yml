@@ -164,6 +164,47 @@ collections:
                   - { label: "Button Text", name: "button_text", widget: "string" }
                   - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string" }
+          - label: "Hit Your Goal"
+            name: "hit_your_goal"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Super Heading", name: "super_heading", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead", name: "lead", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Photo", name: "photo", widget: "image", required: false }
+                  - { label: "Photo Alt", name: "photo_alt", widget: "string", required: false }
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "text" }
+                  - label: "List"
+                    name: "list"
+                    widget: "list"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Item", name: "item", widget: "string" }
+                  - label: "Testimonial"
+                    name: "testimonial"
+                    widget: "object"
+                    collapsed: true
+                    required: false
+                    fields:
+                      - { label: "Name", name: "name", widget: "string" }
+                      - { label: "Quote", name: "quote", widget: "markdown" }
+                      - { label: "Photo", name: "photo", widget: "image" }
+                  - label: "Call to Action"
+                    name: "cta"
+                    widget: list
+                    required: false
+                    fields:
+                      - { label: "Button Text", name: "button_text", widget: "string" }
+                      - { label: "Size", name: "size", widget: "string" }
+                      - { label: "URL", name: "url", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
