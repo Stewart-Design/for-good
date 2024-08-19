@@ -241,6 +241,12 @@ collections:
             fields:
               - { label: "Super Heading", name: "super_heading", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Item", name: "item", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
