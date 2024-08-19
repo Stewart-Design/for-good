@@ -164,6 +164,29 @@ collections:
                   - { label: "Button Text", name: "button_text", widget: "string" }
                   - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string" }
+          - label: "Best Things"
+            name: "best_things"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "heading", name: "heading", widget: "string" }
+              - label: "Badge"
+                name: "badge"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "SRC", name: "src", widget: "image" }
+                  - { label: "Alt", name: "alt", widget: "string" }
+              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Photo Alt", name: "alt", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Item", name: "item", widget: "string" }
+                  - { label: "Value", name: "value", widget: "string" }
+              - { label: "Postscript", name: "postscript", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
