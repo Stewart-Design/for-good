@@ -270,7 +270,7 @@ collections:
                 widget: "list"
                 collapsed: true
                 fields:
-                  - { label: "Photo", name: "photo", wiget: "image", required: false }
+                  - { label: "Photo", name: "photo", widget: "image", required: false }
                   - { label: "Photo Alt", name: "photo_alt", widget: "string", required: false }
                   - { label: "Heading", name: "heading", widget: "string" }
                   - { label: "Copy", name: "copy", widget: "text" }
