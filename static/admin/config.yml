@@ -187,23 +187,23 @@ collections:
                     collapsed: true
                     required: false
                     fields:
-                      - { label: "Item", name: "item", widget: "string" }
+                      - { label: "Item", name: "item", widget: "string", required: false }
                   - label: "Testimonial"
                     name: "testimonial"
                     widget: "object"
                     collapsed: true
                     required: false
                     fields:
-                      - { label: "Name", name: "name", widget: "string" }
-                      - { label: "Quote", name: "quote", widget: "markdown" }
-                      - { label: "Photo", name: "photo", widget: "image" }
+                      - { label: "Name", name: "name", widget: "string", required: false }
+                      - { label: "Quote", name: "quote", widget: "markdown", required: false }
+                      - { label: "Photo", name: "photo", widget: "image", required: false }
                   - label: "Call to Action"
                     name: "cta"
                     widget: list
                     required: false
                     fields:
                       - { label: "Button Text", name: "button_text", widget: "string" }
-                      - { label: "Size", name: "size", widget: "string" }
+                      - { label: "Size", name: "size", widget: "string", required: false }
                       - { label: "URL", name: "url", widget: "string" }
   - label: "Settings"
     name: "settings"
