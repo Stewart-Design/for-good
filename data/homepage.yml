@@ -208,13 +208,6 @@ we_get_it:
     - icon: /img/hormones.svg
       alt: Hormones icon
       copy: Your hormones are all out of wack
-nothing_to_lose:
-  heading: Nothing to lose – except the weight, of course
-  copy: Start your transformation for just $21 a day. Lose it and learn how to
-    keep it off for good.
-  cta:
-    - button_text: Chat with us
-      url: "#"
 made_for_each_other:
   super_heading: Is the program a good fit for me?
   heading: We’re made for each other if…
@@ -227,6 +220,13 @@ made_for_each_other:
       disease, prediabetes, high blood pressure, PCOS, hyperthyroidism, or
       similar condition
     - You may even have type 2 diabetes not well-controlled by other treatments
+nothing_to_lose:
+  heading: Nothing to lose – except the weight, of course
+  copy: Start your transformation for **just $21 a day**. Lose it and learn how to
+    keep it off for good.
+  cta:
+    - button_text: Chat with us
+      url: "#"
 hit_your_goal:
   super_heading: It’s never been easier to lose weight
   heading: Hit your goal and ditch diets for good
