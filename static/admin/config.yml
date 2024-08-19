@@ -36,8 +36,8 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
           - label: "Blob"
             name: blob
             widget: object
@@ -75,8 +75,8 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
           - label: "Ready to Give Up"
             name: "series_quit"
             widget: "object"
@@ -131,8 +131,8 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
           - label: "Mission"
             name: "mission"
             widget: "object"
@@ -171,15 +171,15 @@ collections:
                     widget: "object"
                     collapsed: true
                     fields:
-                      - { label: "SRC", name: "src", widget: "image" }
-                      - { label: "Alt Text", name: "alt", widget: "string" }
+                      - { label: "SRC", name: "src", widget: "image", required: false }
+                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
                   - label: "Logos"
                     name: "logos"
                     widget: "list"
                     collapsed: true
                     fields:
-                      - { label: "Logo", name: "logo", widget: "image" }
-                      - { label: "Alt Text", name: "alt", widget: "string" }
+                      - { label: "Logo", name: "logo", widget: "image", required: false }
+                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
           - label: "Average Loss"
             name: "average_loss"
             widget: "object"
@@ -208,8 +208,8 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
           - label: "How We're Different"
             name: "how_we_re_different"
             widget: "object"
@@ -280,7 +280,7 @@ collections:
                     collapsed: true
                     required: false
                     fields:
-                      - { label: "Item", name: "item", widget: "string" }
+                      - { label: "Item", name: "item", widget: "string", required: false }
                   - label: "Testimonial"
                     name: "testimonial"
                     widget: "object"
@@ -295,7 +295,7 @@ collections:
                     widget: list
                     required: false
                     fields:
-                      - { label: "Button Text", name: "button_text", widget: "string" }
+                      - { label: "Button Text", name: "button_text", widget: "string", required: false }
                       - { label: "Size", name: "size", widget: "string", required: false }
                       - { label: "URL", name: "url", widget: "string", required: false }
   - name: 'backPages'
