@@ -222,7 +222,7 @@ collections:
           - label: "We Get It"
             name: "we_get_it"
             widget: "object"
-            collapsed: "true"
+            collapsed: true
             fields:
               - { label: "Heading", name: "heading", widget: "string" }
               - label: "Items"
