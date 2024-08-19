@@ -26,7 +26,6 @@ yo_yo_no_mo:
     make that happen.
   cta:
     - button_text: Start risk-free
-      url: null
   postscript: "*Offer valid for concierge care services only. Semaglutide cost not
     included. I mean, we can’t just give that stuff away."
 average_loss:
@@ -67,8 +66,6 @@ nothing_to_lose:
     keep it off for good.
   cta:
     - button_text: Chat with us
-      size: null
-      url: null
 mission:
   badge:
     src: /img/badge-mission.svg
@@ -138,7 +135,6 @@ hit_your_goal:
         end of the week.
       cta:
         - button_text: Chat with us
-          url: null
       photo: /img/specialist-on-laptop.webp
       photo_alt: Person chatting with specialist on a laptop
     - heading: 2. Lose weight fast with Semaglutide
@@ -151,7 +147,6 @@ hit_your_goal:
         - Tons of resources and support
       cta:
         - button_text: $645/vial
-          url: null
       testimonial:
         name: Michelle L.
         quote: Dr. Wagner is non-judgmental, took his time getting to understand my
@@ -170,7 +165,6 @@ hit_your_goal:
           nutritionist through Spruce
       cta:
         - button_text: $945/month
-          url: null
       testimonial:
         name: Meredith S.
         quote: I’ve never felt better about myself – I hit my goal in a few months and
@@ -228,7 +222,7 @@ guides:
           don’t need me)
         - "Wrote the book on weight loss: “Ultimate Guide to Weight Loss”"
       photo: /img/thick-pick.webp
-      photo_alt: null
+      photo_alt: Two people stretching
       badge:
         src: /img/carbs-are-life.svg
         alt: "Badge: Gotta Catch ‘Em All"
@@ -237,13 +231,10 @@ series_quit:
   heading: Maybe, you’re ready to give up
   items:
     - icon: /img/circle-arrows.svg
-      alt: null
       copy: Endless cycles of losing and gaining weight your whole life
     - icon: /img/frowny-face.svg
-      alt: null
       copy: You feel bad eating the foods you love
     - icon: /img/waistline.svg
-      alt: null
       copy: You’re embarassed with the way you look
 title: Home
 change_your_life:
@@ -253,7 +244,6 @@ change_your_life:
     and there…
   cta:
     - button_text: I’m ready
-      url: null
 hero:
   name: hero
   heading: Finally, a way to lose weight without dieting ever again.
@@ -273,7 +263,6 @@ weight_over:
   cta:
     - button_text: Help me change
       size: btn-lg
-      url: null
 blob:
   name: blob
   heading: You’ve tried it all – nothing’s working…
@@ -365,4 +354,3 @@ weight_loss_that_works:
       copy: Look great in your favorite clothes again
   cta:
     - button_text: Sign me up
-      url: null
