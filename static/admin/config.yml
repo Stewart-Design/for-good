@@ -247,21 +247,6 @@ collections:
                 collapsed: true
                 fields:
                   - { label: "Item", name: "item", widget: "string" }
-          - label: "Nothing to Lose"
-            name: "nothing_to_lose"
-            widget: "object"
-            collapsed: true
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Copy", name: "copy", widget: "markdown" }
-              - label: "Call to Action"
-                name: "cta"
-                widget: list
-                required: false
-                fields:
-                  - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string", required: false }
-                  - { label: "URL", name: "url", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
