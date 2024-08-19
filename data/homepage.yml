@@ -226,24 +226,7 @@ guides:
       badge:
         src: /img/carbs-are-life.svg
         alt: "Badge: Gotta Catch ‘Em All"
-series_quit:
-  name: series-quit
-  heading: Maybe, you’re ready to give up
-  items:
-    - icon: /img/circle-arrows.svg
-      copy: Endless cycles of losing and gaining weight your whole life
-    - icon: /img/frowny-face.svg
-      copy: You feel bad eating the foods you love
-    - icon: /img/waistline.svg
-      copy: You’re embarassed with the way you look
-title: Home Test
-change_your_life:
-  heading: What if those dollars could change your life for good?
-  copy: We both know you’re already spending it somewhere – that first sip
-    feeling, Target run and done, lunch with the girls, a little pampering here
-    and there…
-  cta:
-    - button_text: I’m ready
+title: Home
 hero:
   name: hero
   heading: Finally, a way to lose weight without dieting ever again.
@@ -254,6 +237,23 @@ hero:
   cta:
     - button_text: Call to Action
       url: /menu
+series_quit:
+  name: series-quit
+  heading: Maybe, you’re ready to give up
+  items:
+    - icon: /img/circle-arrows.svg
+      copy: Endless cycles of losing and gaining weight your whole life
+    - icon: /img/frowny-face.svg
+      copy: You feel bad eating the foods you love
+    - icon: /img/waistline.svg
+      copy: You’re embarassed with the way you look
+change_your_life:
+  heading: What if those dollars could change your life for good?
+  copy: We both know you’re already spending it somewhere – that first sip
+    feeling, Target run and done, lunch with the girls, a little pampering here
+    and there…
+  cta:
+    - button_text: I’m ready
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
