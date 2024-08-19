@@ -74,6 +74,19 @@ collections:
                     fields:
                       - { label: "Logo", name: "logo", widget: "image" }
                       - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Badge"
+                name: "badge"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "SRC", name: "src", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+              - { label: "Message", name: "message", widget: "text" }
   - label: "Settings"
     name: "settings"
     create: false
