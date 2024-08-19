@@ -250,7 +250,7 @@ collections:
           - label: "Nothing to Lose"
             name: "nothing_to_lose"
             widget: "object"
-            collapse: true
+            collapsed: true
             fields:
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Copy", name: "copy", widget: "markdown" }
