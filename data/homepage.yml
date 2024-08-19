@@ -66,7 +66,7 @@ nothing_to_lose:
     keep it off for good.
   cta:
     - button_text: Chat with us
-title: Home Test
+title: Home
 hero:
   name: hero
   heading: Finally, a way to lose weight without dieting ever again.
@@ -283,14 +283,6 @@ guides:
       badge:
         src: /img/carbs-are-life.svg
         alt: "Badge: Gotta Catch ‘Em All"
-change_your_life:
-  heading: What if those dollars could change your life for good?
-  copy: We both know you’re already spending it somewhere – that first sip
-    feeling, Target run and done, lunch with the girls, a little pampering here
-    and there…
-  cta:
-    - button_text: I’m ready
-      url: "#"
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
@@ -300,6 +292,34 @@ weight_over:
   cta:
     - button_text: Help me change
       size: btn-lg
+      url: "#"
+weight_loss_that_works:
+  heading: Finally, weight loss that works – forever
+  items:
+    - icon: /img/target.svg
+      icon_alt: Target icon
+      copy: Reach and maintain your target weight in months
+    - icon: /img/smiley-face.svg
+      icon_alt: Smiley face icon
+      copy: Enjoy eating the foods you love every day
+      size: 70px
+    - icon: /img/calendar-checks.svg
+      icon_alt: Calendar icon with checkmarks
+      copy: Build healthy habits that work for your life
+      size: 70px
+    - icon: /img/waistline-thin.svg
+      icon_alt: Waistline icon showing thin waist
+      copy: Look great in your favorite clothes again
+  cta:
+    - button_text: Sign me up
+      url: "#"
+change_your_life:
+  heading: What if those dollars could change your life for good?
+  copy: We both know you’re already spending it somewhere – that first sip
+    feeling, Target run and done, lunch with the girls, a little pampering here
+    and there…
+  cta:
+    - button_text: I’m ready
       url: "#"
 blob:
   name: blob
@@ -338,23 +358,3 @@ blob:
   cta:
     - button_text: Get my results
       url: ""
-weight_loss_that_works:
-  heading: Finally, weight loss that works – forever
-  items:
-    - icon: /img/target.svg
-      icon_alt: Target icon
-      copy: Reach and maintain your target weight in months
-    - icon: /img/smiley-face.svg
-      icon_alt: Smiley face icon
-      copy: Enjoy eating the foods you love every day
-      size: 70px
-    - icon: /img/calendar-checks.svg
-      icon_alt: Calendar icon with checkmarks
-      copy: Build healthy habits that work for your life
-      size: 70px
-    - icon: /img/waistline-thin.svg
-      icon_alt: Waistline icon showing thin waist
-      copy: Look great in your favorite clothes again
-  cta:
-    - button_text: Sign me up
-      url: "#"
