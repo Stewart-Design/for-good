@@ -12,7 +12,7 @@
           <div>
             <h2 id="one-in-a-million-label" class="recoleta-medium mb-3 h1 fw-bold">{{ .heading }}</h2>
             <div class="fs-5">
-              {{ .copy }}
+              {{ .copy | markdownify }}
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@
                       <p class="small">{{ .name }}</p>
                       <img class="mb-3" src="{{ $stars }}" height="20px" width="150px" alt="5-star review icon" />
                       <blockquote class="recoleta-light fs-5">
-                        “{{ .quote }}”
+                        “{{ .quote | markdownify }}”
                       </blockquote>
                     </div>
                   </div>
