@@ -141,6 +141,29 @@ collections:
               - { label: "Copy", name: "copy", widget: "markdown" }
               - { label: "Photo", name: "photo", widget: "image" }
               - { label: "Photo Alt", name: "alt", widget: "string" }
+          - label: "Weight Loss That Works"
+            name: "weight_loss_that_works"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Icon", name: "icon", widget: "image" }
+                  - { label: "Alt Text", name: "icon_alt", widget: "string" }
+                  - { label: "Size:", name: "size", widget: "number", required: false }
+                  - { label: "Copy", name: "copy", widget: "string" }
+              - label: "Call to Action"
+                name: "cta"
+                widget: list
+                required: false
+                fields:
+                  - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
