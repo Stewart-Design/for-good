@@ -265,7 +265,6 @@ hero:
   cta:
     - button_text: Call to Action
       url: /menu
-  featured_image: /img/frose-flight.webp
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business

@@ -37,6 +37,44 @@ collections:
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
+          - label: "Blob"
+            name: blob
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Tries"
+                name: "tries"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Icon", name: "icon", widget: "photo" }
+                  - { label: "Alt Text", name: "alt", widget: "string", required: false }
+                  - { label: "Copy", name: "copy", widget: "string" }
+                  - { label: "Size", name: "size", widget: "number", required: false }
+              - label: "Before and After"
+                name: "before_after"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Before", name: "before", widget: "image" }
+                  - { label: "After", name: "after", widget: "image" }
+                  - { label: "After After", name: "after_after", widget: "image" }
+          - { label: "Heading 2", name: "heading_2", widget: "string" }
+          - label: "Struggles"
+            name: "struggles"
+            widget: "list"
+            collapsed: true
+            fields:
+              - { label: "Struggle", name: "struggle", widget: "string" }
+          - { label: "CTA Heading", name: "cta_heading", widget: "string" }
+          - label: "Call to Action"
+            name: "cta"
+            widget: list
+            required: false
+            fields:
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
   - name: 'backPages'
     label: 'Back Pages'
     folder: "content/"
