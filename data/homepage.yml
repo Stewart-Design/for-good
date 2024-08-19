@@ -66,6 +66,7 @@ nothing_to_lose:
     keep it off for good.
   cta:
     - button_text: Chat with us
+title: Home
 hero:
   name: hero
   heading: Finally, a way to lose weight without dieting ever again.
@@ -76,25 +77,16 @@ hero:
   cta:
     - button_text: Call to Action
       url: /menu
-mission:
-  badge:
-    src: /img/badge-mission.svg
-    alt: "Badge: Our Mission"
-  message: "We help overweight Americans restore a healthy relationship with food
-    to ditch diets, lose weight, and keep it off, like our name says:"
-one_in_a_million:
-  heading: You could be 1 in 235 million
-  copy: That’s oddly specific, isn’t it? Losing weight is tough, but we know the
-    first step is actually the easiest. The real challenge is changing your
-    life. That's why we're aiming to help 235,000 overweight Americans build a
-    healthy relationship with food so they can lose the weight and keep it off
-    for good. That number might seem huge but it accounts for just 0.1% of the
-    235 million people struggling with weight loss— but we believe that even
-    small steps can lead to big changes. We might not change the world, but if
-    we can help change someone’s world, we're good with that. Hey, maybe that
-    could be yours.
-  photo: /img/girl-eating-sandwich.webp
-  alt: Girl eating sandwich while smiling
+series_quit:
+  name: series-quit
+  heading: Maybe, you’re ready to give up
+  items:
+    - icon: /img/circle-arrows.svg
+      copy: Endless cycles of losing and gaining weight your whole life
+    - icon: /img/frowny-face.svg
+      copy: You feel bad eating the foods you love
+    - icon: /img/waistline.svg
+      copy: You’re embarassed with the way you look
 stats:
   name: stats
   super_heading: Weight…really?
@@ -130,16 +122,12 @@ stats:
       logos:
         - logo: /img/pub-med-logo.png
           alt: PubMed logo
-weight_over:
-  heading: The weight is over
-  copy: Weight loss has always been one of our passions. In our first business
-    just ‘playing around’ on the side for a few years, we coached over 34,064
-    people to lose 192,690 lbs on DietBet. Now, we’re going all in to help as
-    many people as possible lose the weight fast – and keep it off for good.
-  cta:
-    - button_text: Help me change
-      size: btn-lg
-      url: "#"
+mission:
+  badge:
+    src: /img/badge-mission.svg
+    alt: "Badge: Our Mission"
+  message: "We help overweight Americans restore a healthy relationship with food
+    to ditch diets, lose weight, and keep it off, like our name says:"
 how_we_re_different:
   super_heading: How we’re different
   heading: “What happens after I reach my ideal weight?”
@@ -164,6 +152,19 @@ how_we_re_different:
     - name: Brooklyn P.
       quote: You can tell these guys really care about you. Dr. Zach is so kind and
         helped me work through a lot of my own self-consciousness along the way.
+one_in_a_million:
+  heading: You could be 1 in 235 million
+  copy: That’s oddly specific, isn’t it? Losing weight is tough, but we know the
+    first step is actually the easiest. The real challenge is changing your
+    life. That's why we're aiming to help 235,000 overweight Americans build a
+    healthy relationship with food so they can lose the weight and keep it off
+    for good. That number might seem huge but it accounts for just 0.1% of the
+    235 million people struggling with weight loss— but we believe that even
+    small steps can lead to big changes. We might not change the world, but if
+    we can help change someone’s world, we're good with that. Hey, maybe that
+    could be yours.
+  photo: /img/girl-eating-sandwich.webp
+  alt: Girl eating sandwich while smiling
 made_for_each_other:
   super_heading: Is the program a good fit for me?
   heading: We’re made for each other if…
@@ -282,17 +283,6 @@ guides:
       badge:
         src: /img/carbs-are-life.svg
         alt: "Badge: Gotta Catch ‘Em All"
-title: Home Yo.
-series_quit:
-  name: series-quit
-  heading: Maybe, you’re ready to give up
-  items:
-    - icon: /img/circle-arrows.svg
-      copy: Endless cycles of losing and gaining weight your whole life
-    - icon: /img/frowny-face.svg
-      copy: You feel bad eating the foods you love
-    - icon: /img/waistline.svg
-      copy: You’re embarassed with the way you look
 change_your_life:
   heading: What if those dollars could change your life for good?
   copy: We both know you’re already spending it somewhere – that first sip
@@ -300,6 +290,16 @@ change_your_life:
     and there…
   cta:
     - button_text: I’m ready
+weight_over:
+  heading: The weight is over
+  copy: Weight loss has always been one of our passions. In our first business
+    just ‘playing around’ on the side for a few years, we coached over 34,064
+    people to lose 192,690 lbs on DietBet. Now, we’re going all in to help as
+    many people as possible lose the weight fast – and keep it off for good.
+  cta:
+    - button_text: Help me change
+      size: btn-lg
+      url: "#"
 blob:
   name: blob
   heading: You’ve tried it all – nothing’s working…
