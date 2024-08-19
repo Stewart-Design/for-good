@@ -26,6 +26,7 @@ yo_yo_no_mo:
     make that happen.
   cta:
     - button_text: Start risk-free
+      url: "#"
   postscript: "*Offer valid for concierge care services only. Semaglutide cost not
     included. I mean, we can’t just give that stuff away."
 average_loss:
