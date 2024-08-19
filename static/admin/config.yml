@@ -87,42 +87,6 @@ collections:
                   - { label: "SRC", name: "src", widget: "image" }
                   - { label: "Alt Text", name: "alt", widget: "string" }
               - { label: "Message", name: "message", widget: "text" }
-          - label: "Find Your Soul Weight"
-            name: "guides"
-            widget: "object"
-            collapsed: true
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Guides"
-                name: "guides"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - { label: "Name", name: "name", widget: "string" }
-                  - label: "Items"
-                    name: "items"
-                    widget: "list"
-                    collapsed: true
-                    fields:
-                      - { label: "Item", name: "item", widget: "markdown" }
-                  - { label: "Photo", name: "photo", widget: "image" }
-                  - { label: "Photo Alt Text", name: "photo_alt", widget: "string" }
-                  - label: "Badge"
-                    name: "badge"
-                    widget: "object"
-                    collapsed: true
-                    required: false
-                    fields:
-                      - { label: "SRC", name: "src", widget: "image" }
-                      - { label: "Alt Text", name: "alt", widget: "string" }
-                  - label: "Logos"
-                    name: "logos"
-                    widget: "list"
-                    collapsed: true
-                    required: false
-                    fields:
-                      - { label: "Logo", name: "logo", widget: "image" }
-                      - { label: "Alt Text", name: "alt", widget: "string" }
           - label: "Average Loss"
             name: "average_loss"
             widget: "object"
@@ -153,6 +117,21 @@ collections:
                   - { label: "Button Text", name: "button_text", widget: "string" }
                   - { label: "Size", name: "size", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
+          - label: "How We're Different"
+            name: "how_we_re_different"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Super Heading", name: "super_heading", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Copy", name: "lead", widget: "markdown" }
+              - label: "Reviews"
+                name: "reviews"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Quote", name: "quote", widget: "markdown" }
   - label: "Settings"
     name: "settings"
     create: false
