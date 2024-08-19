@@ -71,7 +71,7 @@
                 <h3 class="recoleta-medium fw-bold">{{ .name }}</h3>
                 <ul class="fs-5">
                   {{ range .items }}
-                    <li>{{ . }}</li>
+                    <li>{{ . | markdownify }}</li>
                   {{ end }}
                 </ul>
                 {{ if .logos }}

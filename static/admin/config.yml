@@ -164,22 +164,22 @@ collections:
                     collapsed: true
                     fields:
                       - { label: "Item", name: "item", widget: "markdown" }
-              - { label: "Photo", name: "photo", widget: "image" }
-              - { label: "Photo Alt Text", name: "photo_alt", widget: "string" }
-              - label: "Badge"
-                name: "badge"
-                widget: "object"
-                collapsed: true
-                fields:
-                  - { label: "SRC", name: "src", widget: "image" }
-                  - { label: "Alt Text", name: "alt", widget: "string" }
-              - label: "Logos"
-                name: "logos"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - { label: "Logo", name: "logo", widget: "image" }
-                  - { label: "Alt Text", name: "alt", widget: "string" }
+                  - { label: "Photo", name: "photo", widget: "image" }
+                  - { label: "Photo Alt Text", name: "photo_alt", widget: "string" }
+                  - label: "Badge"
+                    name: "badge"
+                    widget: "object"
+                    collapsed: true
+                    fields:
+                      - { label: "SRC", name: "src", widget: "image" }
+                      - { label: "Alt Text", name: "alt", widget: "string" }
+                  - label: "Logos"
+                    name: "logos"
+                    widget: "list"
+                    collapsed: true
+                    fields:
+                      - { label: "Logo", name: "logo", widget: "image" }
+                      - { label: "Alt Text", name: "alt", widget: "string" }
           - label: "Average Loss"
             name: "average_loss"
             widget: "object"
