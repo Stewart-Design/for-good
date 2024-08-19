@@ -78,11 +78,21 @@ yo_yo_no_mo:
   photo: /img/pizza-slice.png
   super_heading: 100% Money-Back Guarantee*
   heading: Yo-yo no ‘mo? Fo sho.
-  copy: Look, we’re not into throwing around scammy claims about how much you’ll
+  copy: >-
+    Look, we’re not into throwing around scammy claims about how much you’ll
     lose, let's be real, losing weight is the easy part and we know every person
     is totally different. It’s keeping it off that’s the real challenge. And we
     can’t promise you’ll stick with it because, well, you’re the one who’s gotta
-    make that happen.
+    make that happen. 
+
+
+    Here’s what we can promise: a program you’ll love, a new way to look at food, results that make you feel awesome, and a little hand holding – especially when things get tough. 
+
+
+    **If after 30 days you’re not seeing real changes, feeling pumped, or learning something new about your food journey, no worries – full refund** (minus meds).
+
+
+    So, ditch that scale, grab a slice of pizza (yes, really), and let’s kick off this journey together. Weight loss doesn't have to be suffering – and we're here to prove it.
   cta:
     - button_text: Start risk-free
       url: "#"
