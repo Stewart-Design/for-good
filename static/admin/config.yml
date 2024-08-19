@@ -87,40 +87,21 @@ collections:
                   - { label: "SRC", name: "src", widget: "image" }
                   - { label: "Alt Text", name: "alt", widget: "string" }
               - { label: "Message", name: "message", widget: "text" }
-          - label: "Find Your Soul Weight"
-            name: "guides"
+          - label: "Average Loss"
+            name: "average_loss"
             widget: "object"
             collapsed: true
             fields:
               - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Guides"
-                name: "guides"
+              - { label: "Heading Bold", name: "heading_bold", widget: "string" }
+              - label: "Profiles"
+                name: "profiles"
                 widget: "list"
                 collapsed: true
                 fields:
-                  - { label: "Name", name: "name", widget: "string" }
-                  - label: "Items"
-                    name: "items"
-                    widget: "list"
-                    collapsed: true
-                    fields:
-                      - { label: "Item", name: "item", widget: "markdown" }
                   - { label: "Photo", name: "photo", widget: "image" }
-                  - { label: "Photo Alt Text", name: "photo_alt", widget: "string" }
-                  - label: "Badge"
-                    name: "badge"
-                    widget: "object"
-                    collapsed: true
-                    fields:
-                      - { label: "SRC", name: "src", widget: "image", required: false }
-                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
-                  - label: "Logos"
-                    name: "logos"
-                    widget: "list"
-                    collapsed: true
-                    fields:
-                      - { label: "Logo", name: "logo", widget: "image", required: false }
-                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Loss", name: "loss", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
