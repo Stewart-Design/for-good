@@ -111,13 +111,15 @@ collections:
                     name: "badge"
                     widget: "object"
                     collapsed: true
+                    required: false
                     fields:
-                      - { label: "SRC", name: "src", widget: "image", required: false }
-                      - { label: "Alt Text", name: "alt", widget: "string", required: false }
+                      - { label: "SRC", name: "src", widget: "image" }
+                      - { label: "Alt Text", name: "alt", widget: "string" }
                   - label: "Logos"
                     name: "logos"
                     widget: "list"
                     collapsed: true
+                    required: false
                     fields:
                       - { label: "Logo", name: "logo", widget: "image" }
                       - { label: "Alt Text", name: "alt", widget: "string" }
