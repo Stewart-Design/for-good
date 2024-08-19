@@ -66,6 +66,16 @@ nothing_to_lose:
     keep it off for good.
   cta:
     - button_text: Chat with us
+hero:
+  name: hero
+  heading: Finally, a way to lose weight without dieting ever again.
+  lede: We help yo-yo dieters lose weight fast with Semaglutide and build healthy
+    habits to actually keep it off for good.
+  photo: /img/woman-in-glasses-looking-up.png
+  alt: Women in glasses looking up
+  cta:
+    - button_text: Call to Action
+      url: /menu
 mission:
   badge:
     src: /img/badge-mission.svg
@@ -85,6 +95,51 @@ one_in_a_million:
     could be yours.
   photo: /img/girl-eating-sandwich.webp
   alt: Girl eating sandwich while smiling
+stats:
+  name: stats
+  super_heading: Weight…really?
+  heading: The struggle is real…
+  panels:
+    - stat: 2 in 5
+      copy: of adults in America struggle with obesity (30+ BMI)
+      logos:
+        - logo: /img/frac-logo.png
+          alt: FRAC logo
+    - stat: Over 70%
+      copy: of adults in the US are overweight (27+ BMI)
+      logos:
+        - logo: /img/cdc-logo.png
+          alt: CDC logo
+    - stat: 80%+
+      copy: of people who lose weight will gain it back again within 12 months
+      logos:
+        - logo: /img/stanford-medicine-logo.png
+          alt: Stanford Medicine logo
+      badge:
+        src: /img/badge-weight-loss-hard.svg
+        alt: "Badge: Weight Loss is Hard"
+    - stat: Two-thirds gain it back
+      copy: Without lifestyle modification, weight loss injection medication users
+        gained two-thirds of their weight back within a year
+      logos:
+        - logo: /img/nlom-logo.png
+          alt: National Library of Medicine logo
+    - stat: Nearly half regain even more
+      copy: 40% of people who lose weight gain back even more than they lost during
+        their diet
+      logos:
+        - logo: /img/pub-med-logo.png
+          alt: PubMed logo
+weight_over:
+  heading: The weight is over
+  copy: Weight loss has always been one of our passions. In our first business
+    just ‘playing around’ on the side for a few years, we coached over 34,064
+    people to lose 192,690 lbs on DietBet. Now, we’re going all in to help as
+    many people as possible lose the weight fast – and keep it off for good.
+  cta:
+    - button_text: Help me change
+      size: btn-lg
+      url: "#"
 how_we_re_different:
   super_heading: How we’re different
   heading: “What happens after I reach my ideal weight?”
@@ -226,17 +281,7 @@ guides:
       badge:
         src: /img/carbs-are-life.svg
         alt: "Badge: Gotta Catch ‘Em All"
-title: Home
-hero:
-  name: hero
-  heading: Finally, a way to lose weight without dieting ever again.
-  lede: We help yo-yo dieters lose weight fast with Semaglutide and build healthy
-    habits to actually keep it off for good.
-  photo: /img/woman-in-glasses-looking-up.png
-  alt: Women in glasses looking up
-  cta:
-    - button_text: Call to Action
-      url: /menu
+title: Home Yo.
 series_quit:
   name: series-quit
   heading: Maybe, you’re ready to give up
@@ -254,51 +299,6 @@ change_your_life:
     and there…
   cta:
     - button_text: I’m ready
-stats:
-  name: stats
-  super_heading: Weight…really?
-  heading: The struggle is real…
-  panels:
-    - stat: 2 in 5
-      copy: of adults in America struggle with obesity (30+ BMI)
-      logos:
-        - logo: /img/frac-logo.png
-          alt: FRAC logo
-    - stat: Over 70%
-      copy: of adults in the US are overweight (27+ BMI)
-      logos:
-        - logo: /img/cdc-logo.png
-          alt: CDC logo
-    - stat: 80%+
-      copy: of people who lose weight will gain it back again within 12 months
-      logos:
-        - logo: /img/stanford-medicine-logo.png
-          alt: Stanford Medicine logo
-      badge:
-        src: /img/badge-weight-loss-hard.svg
-        alt: "Badge: Weight Loss is Hard"
-    - stat: Two-thirds gain it back
-      copy: Without lifestyle modification, weight loss injection medication users
-        gained two-thirds of their weight back within a year
-      logos:
-        - logo: /img/nlom-logo.png
-          alt: National Library of Medicine logo
-    - stat: Nearly half regain even more
-      copy: 40% of people who lose weight gain back even more than they lost during
-        their diet
-      logos:
-        - logo: /img/pub-med-logo.png
-          alt: PubMed logo
-weight_over:
-  heading: The weight is over
-  copy: Weight loss has always been one of our passions. In our first business
-    just ‘playing around’ on the side for a few years, we coached over 34,064
-    people to lose 192,690 lbs on DietBet. Now, we’re going all in to help as
-    many people as possible lose the weight fast – and keep it off for good.
-  cta:
-    - button_text: Help me change
-      size: btn-lg
-      url: "#"
 blob:
   name: blob
   heading: You’ve tried it all – nothing’s working…
