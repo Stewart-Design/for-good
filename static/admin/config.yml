@@ -205,7 +205,7 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
                   - { label: "URL", name: "url", widget: "string" }
           - label: "How We're Different"
             name: "how_we_re_different"
