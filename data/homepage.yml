@@ -1,4 +1,4 @@
-title: Home
+title: Home Test
 hero:
   name: hero
   heading: Finally, a way to lose weight without dieting ever again.
@@ -9,6 +9,43 @@ hero:
   cta:
     - button_text: Call to Action
       url: /menu
+blob:
+  name: blob
+  heading: You’ve tried it all – nothing’s working…
+  tries:
+    - icon: /img/pizza.svg
+      alt: Pizza icon
+      copy: Hyper-restrictive diet plans like Keto, Atkins, and Whole 30
+    - icon: /img/foot.svg
+      alt: Foot icon
+      copy: Spending countless hours in the gym to burn more calories
+      size: 70px
+    - icon: /img/clipboard.svg
+      alt: Clipboard icon
+      copy: Obsessively tracking every single thing you eat
+    - icon: /img/juice.svg
+      alt: Juice icon
+      copy: Juice cleanses, detoxes, supplements, and challenges
+  before_after:
+    before: /img/before.webp
+    after: /img/after.webp
+    after_after: /img/after-after.webp
+  heading_2: It feels impossible to stay in shape
+  struggles:
+    - You’ve struggled with your weight your whole life but it’s gotten even
+      worse since you started your family
+    - You’ve tried just about every diet under the sun and they’ve worked – for
+      a while
+    - Your life’s too busy to work out all the time or make healthier meals
+    - Your girlfriend lost a ton of weight with semaglutide and looks amazing
+      and now you wanna give it a try
+    - You feel defeated, frustrated, and overwhelmed with your weight
+    - You’re ready to do whatever it takes but know you’re gonna need help
+      changing
+  cta_heading: Find out why it’s so hard with our Disordered Eating Quiz
+  cta:
+    - button_text: Get my results
+      url: ""
 series_quit:
   name: series-quit
   heading: Maybe, you’re ready to give up
@@ -54,12 +91,68 @@ stats:
       logos:
         - logo: /img/pub-med-logo.png
           alt: PubMed logo
+keep_it_off:
+  name: keep-it-off
+  heading: What if you could lose weight fast and actually keep it off this time?
+  items:
+    - Reach your ideal weight in months without spending hours in the gym
+    - No more fad diets or yo-yo cycles
+    - Stop struggling with your weight and learn how to actually keep it off
+      forever
+    - Look and feel amazing at the pool this summer
+    - Restore a healthy relationship with food where nothing is off limits
+      (#carbs4life)
+    - 1-on-1 help and accountability before AND after losing weight– especially
+      when it’s hard
+  cta:
+    - button_text: See if I qualify
+      size: btn-lg
+      url: ""
 mission:
   badge:
     src: /img/badge-mission.svg
     alt: "Badge: Our Mission"
   message: "We help overweight Americans restore a healthy relationship with food
     to ditch diets, lose weight, and keep it off, like our name says:"
+guides:
+  heading: Meet your unexpected guides to finding your soul weight
+  guides:
+    - name: Zach “Z-Weezy” Wagner (Med Guy)
+      items:
+        - Pokemon lover
+        - Entrepreneur, med spa owner at Rella Aesthetics
+        - Board-certified physician in obesity and family medicine
+        - Career to transform lives through effective weight loss strategies
+        - Currently helping over 400+ patients/mo lose weight fast with
+          Semaglutide
+      photo: img/z-weezy.webp
+      photo_alt: Zach posing for a picture with a friend
+      badge:
+        src: /img/badge-pokemon.svg
+        alt: "Badge: Gotta Catch ‘Em All"
+      logos:
+        - logo: /img/abops-logo.webp
+          alt: American Board of Physician Specialties logo
+        - logo: /img/aboom-logo.webp
+          alt: American Board of Obesity Medicine logo
+        - logo: /img/abofm-logo.png
+          alt: American Board of Family Medicine logo
+    - name: Michael “Thick Pick” Pickett (Food Guide)
+      items:
+        - Foodie and carb-lover
+        - Hates chicken and rice and food that sucks
+        - Nutrition expert that reads about food for fun
+        - Competitive bodybuilder for life (won a couple of shows)
+        - Paramedicine medical background to handle emergencies and
+          obesity/diabetic emergencies
+        - 1-on-1 coached hundreds how to lose weight and keep it off (so they
+          don’t need me)
+        - "Wrote the book on weight loss: “Ultimate Guide to Weight Loss”"
+      photo: /img/thick-pick.webp
+      photo_alt: Two people stretching
+      badge:
+        src: /img/carbs-are-life.svg
+        alt: "Badge: Gotta Catch ‘Em All"
 average_loss:
   heading: Patients lose an average of
   heading_bold: 8-10 lbs/month
@@ -277,96 +370,3 @@ nothing_to_lose:
   cta:
     - button_text: Chat with us
       url: "#"
-keep_it_off:
-  name: keep-it-off
-  heading: What if you could lose weight fast and actually keep it off this time?
-  items:
-    - Reach your ideal weight in months without spending hours in the gym
-    - No more fad diets or yo-yo cycles
-    - Stop struggling with your weight and learn how to actually keep it off
-      forever
-    - Look and feel amazing at the pool this summer
-    - Restore a healthy relationship with food where nothing is off limits
-      (#carbs4life)
-    - 1-on-1 help and accountability before AND after losing weight– especially
-      when it’s hard
-  cta:
-    - button_text: See if I qualify
-      size: btn-lg
-      url: ""
-guides:
-  heading: Meet your unexpected guides to finding your soul weight
-  guides:
-    - name: Zach “Z-Weezy” Wagner (Med Guy)
-      items:
-        - Pokemon lover
-        - Entrepreneur, med spa owner at Rella Aesthetics
-        - Board-certified physician in obesity and family medicine
-        - Career to transform lives through effective weight loss strategies
-        - Currently helping over 400+ patients/mo lose weight fast with
-          Semaglutide
-      photo: img/z-weezy.webp
-      photo_alt: Zach posing for a picture with a friend
-      badge:
-        src: /img/badge-pokemon.svg
-        alt: "Badge: Gotta Catch ‘Em All"
-      logos:
-        - logo: /img/abops-logo.webp
-          alt: American Board of Physician Specialties logo
-        - logo: /img/aboom-logo.webp
-          alt: American Board of Obesity Medicine logo
-        - logo: /img/abofm-logo.png
-          alt: American Board of Family Medicine logo
-    - name: Michael “Thick Pick” Pickett (Food Guide)
-      items:
-        - Foodie and carb-lover
-        - Hates chicken and rice and food that sucks
-        - Nutrition expert that reads about food for fun
-        - Competitive bodybuilder for life (won a couple of shows)
-        - Paramedicine medical background to handle emergencies and
-          obesity/diabetic emergencies
-        - 1-on-1 coached hundreds how to lose weight and keep it off (so they
-          don’t need me)
-        - "Wrote the book on weight loss: “Ultimate Guide to Weight Loss”"
-      photo: /img/thick-pick.webp
-      photo_alt: Two people stretching
-      badge:
-        src: /img/carbs-are-life.svg
-        alt: "Badge: Gotta Catch ‘Em All"
-blob:
-  name: blob
-  heading: You’ve tried it all – nothing’s working…
-  tries:
-    - icon: /img/pizza.svg
-      alt: Pizza icon
-      copy: Hyper-restrictive diet plans like Keto, Atkins, and Whole 30
-    - icon: /img/foot.svg
-      alt: Foot icon
-      copy: Spending countless hours in the gym to burn more calories
-      size: 70px
-    - icon: /img/clipboard.svg
-      alt: Clipboard icon
-      copy: Obsessively tracking every single thing you eat
-    - icon: /img/juice.svg
-      alt: Juice icon
-      copy: Juice cleanses, detoxes, supplements, and challenges
-  before_after:
-    before: /img/before.webp
-    after: /img/after.webp
-    after_after: /img/after-after.webp
-  heading_2: It feels impossible to stay in shape
-  struggles:
-    - You’ve struggled with your weight your whole life but it’s gotten even
-      worse since you started your family
-    - You’ve tried just about every diet under the sun and they’ve worked – for
-      a while
-    - Your life’s too busy to work out all the time or make healthier meals
-    - Your girlfriend lost a ton of weight with semaglutide and looks amazing
-      and now you wanna give it a try
-    - You feel defeated, frustrated, and overwhelmed with your weight
-    - You’re ready to do whatever it takes but know you’re gonna need help
-      changing
-  cta_heading: Find out why it’s so hard with our Disordered Eating Quiz
-  cta:
-    - button_text: Get my results
-      url: ""
