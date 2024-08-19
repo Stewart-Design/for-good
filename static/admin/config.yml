@@ -247,16 +247,16 @@ collections:
                 fields:
                   - { label: "Icon", name: "icon", widget: "image" }
                   - { label: "Alt Text", name: "icon_alt", widget: "string" }
-                  - { label: "Size:", name: "size", widget: "number" }
-                  - { label: "Copy", name: "copy", widget: "string" }
+                  - { label: "Size:", name: "size", widget: "number", required: false }
+                  - { label: "Copy", name: "copy", widget: "string", required: false }
               - label: "Call to Action"
                 name: "cta"
                 widget: list
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
-                  - { label: "Size", name: "size", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
           - label: "Hit Your Goal"
             name: "hit_your_goal"
             widget: "object"
@@ -296,8 +296,8 @@ collections:
                     required: false
                     fields:
                       - { label: "Button Text", name: "button_text", widget: "string" }
-                      - { label: "Size", name: "size", widget: "string" }
-                      - { label: "URL", name: "url", widget: "string" }
+                      - { label: "Size", name: "size", widget: "string", required: false }
+                      - { label: "URL", name: "url", widget: "string", required: false }
   - name: 'backPages'
     label: 'Back Pages'
     folder: "content/pages"
