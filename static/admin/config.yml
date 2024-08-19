@@ -36,6 +36,7 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
           - label: "Blob"
             name: blob
@@ -74,6 +75,7 @@ collections:
                 required: false
                 fields:
                   - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
           - label: "Ready to Give Up"
             name: "series_quit"
@@ -111,6 +113,39 @@ collections:
                     fields:
                       - { label: "Logo", name: "logo", widget: "image" }
                       - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Keep It Off"
+            name: "keep_it_off"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Item", name: "item", widget: "string" }
+              - label: "Call to Action"
+                name: "cta"
+                widget: list
+                required: false
+                fields:
+                  - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Badge"
+                name: "badge"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "SRC", name: "src", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+              - { label: "Message", name: "message", widget: "text" }
   - name: 'backPages'
     label: 'Back Pages'
     folder: "content/"
