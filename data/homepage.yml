@@ -290,6 +290,7 @@ change_your_life:
     and there…
   cta:
     - button_text: I’m ready
+      url: "#"
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
