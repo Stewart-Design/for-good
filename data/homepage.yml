@@ -1,34 +1,9 @@
-best_things:
+mission:
   badge:
-    src: /img/badge-welcome-gift.svg
-    alt: "Badge: Welcome Gift"
-  heading: Some of the best things in life are free…
-  photo: /img/gifts.webp
-  alt: Photo of free gifts (Stanley, magazine, scale, measuring tape)
-  items:
-    - item: Stanley Quencher 40oz Tumbler
-      value: ($50 value)
-    - item: Semaglutide Eating Guide
-      value: ($20 value)
-    - item: Digital Food Scale and Tape Measurer
-      value: ($30 value)
-    - item: 7-Day Trial of our Concierge Weight Loss Program
-      value: ($240 value)
-  postscript: That’s $340+ value for new patients!
-yo_yo_no_mo:
-  photo: /img/pizza-slice.png
-  super_heading: 100% Money-Back Guarantee*
-  heading: Yo-yo no ‘mo? Fo sho.
-  copy: Look, we’re not into throwing around scammy claims about how much you’ll
-    lose, let's be real, losing weight is the easy part and we know every person
-    is totally different. It’s keeping it off that’s the real challenge. And we
-    can’t promise you’ll stick with it because, well, you’re the one who’s gotta
-    make that happen.
-  cta:
-    - button_text: Start risk-free
-      url: "#"
-  postscript: "*Offer valid for concierge care services only. Semaglutide cost not
-    included. I mean, we can’t just give that stuff away."
+    src: /img/badge-mission.svg
+    alt: "Badge: Our Mission"
+  message: "We help overweight Americans restore a healthy relationship with food
+    to ditch diets, lose weight, and keep it off, like our name says:"
 average_loss:
   heading: Patients lose an average of
   heading_bold: 8-10 lbs/month
@@ -45,90 +20,6 @@ average_loss:
     - photo: /img/alice-s.webp
       name: Alice S. (Napa, CA)
       loss: 70 lbs in 8 months
-we_get_it:
-  heading: We totally get it.
-  items:
-    - icon: /img/waistline-alt.svg
-      alt: Flabby waistline icon
-      copy: It’s felt impossible to get the weight off after having kids
-    - icon: /img/tortoise.svg
-      alt: Tortoise icon
-      copy: You feel like your metabolism has slowed down
-      size: 50px
-    - icon: /img/virus.svg
-      alt: Virus icon
-      copy: You gained a lot of bad habits (and weight) during COVID
-    - icon: /img/hormones.svg
-      alt: Hormones icon
-      copy: Your hormones are all out of wack
-nothing_to_lose:
-  heading: Nothing to lose – except the weight, of course
-  copy: Start your transformation for just $21 a day. Lose it and learn how to
-    keep it off for good.
-  cta:
-    - button_text: Chat with us
-title: Home
-hero:
-  name: hero
-  heading: Finally, a way to lose weight without dieting ever again.
-  lede: We help yo-yo dieters lose weight fast with Semaglutide and build healthy
-    habits to actually keep it off for good.
-  photo: /img/woman-in-glasses-looking-up.png
-  alt: Women in glasses looking up
-  cta:
-    - button_text: Call to Action
-      url: /menu
-series_quit:
-  name: series-quit
-  heading: Maybe, you’re ready to give up
-  items:
-    - icon: /img/circle-arrows.svg
-      copy: Endless cycles of losing and gaining weight your whole life
-    - icon: /img/frowny-face.svg
-      copy: You feel bad eating the foods you love
-    - icon: /img/waistline.svg
-      copy: You’re embarassed with the way you look
-stats:
-  name: stats
-  super_heading: Weight…really?
-  heading: The struggle is real…
-  panels:
-    - stat: 2 in 5
-      copy: of adults in America struggle with obesity (30+ BMI)
-      logos:
-        - logo: /img/frac-logo.png
-          alt: FRAC logo
-    - stat: Over 70%
-      copy: of adults in the US are overweight (27+ BMI)
-      logos:
-        - logo: /img/cdc-logo.png
-          alt: CDC logo
-    - stat: 80%+
-      copy: of people who lose weight will gain it back again within 12 months
-      logos:
-        - logo: /img/stanford-medicine-logo.png
-          alt: Stanford Medicine logo
-      badge:
-        src: /img/badge-weight-loss-hard.svg
-        alt: "Badge: Weight Loss is Hard"
-    - stat: Two-thirds gain it back
-      copy: Without lifestyle modification, weight loss injection medication users
-        gained two-thirds of their weight back within a year
-      logos:
-        - logo: /img/nlom-logo.png
-          alt: National Library of Medicine logo
-    - stat: Nearly half regain even more
-      copy: 40% of people who lose weight gain back even more than they lost during
-        their diet
-      logos:
-        - logo: /img/pub-med-logo.png
-          alt: PubMed logo
-mission:
-  badge:
-    src: /img/badge-mission.svg
-    alt: "Badge: Our Mission"
-  message: "We help overweight Americans restore a healthy relationship with food
-    to ditch diets, lose weight, and keep it off, like our name says:"
 how_we_re_different:
   super_heading: How we’re different
   heading: “What happens after I reach my ideal weight?”
@@ -166,6 +57,59 @@ one_in_a_million:
     could be yours.
   photo: /img/girl-eating-sandwich.webp
   alt: Girl eating sandwich while smiling
+best_things:
+  badge:
+    src: /img/badge-welcome-gift.svg
+    alt: "Badge: Welcome Gift"
+  heading: Some of the best things in life are free…
+  photo: /img/gifts.webp
+  alt: Photo of free gifts (Stanley, magazine, scale, measuring tape)
+  items:
+    - item: Stanley Quencher 40oz Tumbler
+      value: ($50 value)
+    - item: Semaglutide Eating Guide
+      value: ($20 value)
+    - item: Digital Food Scale and Tape Measurer
+      value: ($30 value)
+    - item: 7-Day Trial of our Concierge Weight Loss Program
+      value: ($240 value)
+  postscript: That’s $340+ value for new patients!
+yo_yo_no_mo:
+  photo: /img/pizza-slice.png
+  super_heading: 100% Money-Back Guarantee*
+  heading: Yo-yo no ‘mo? Fo sho.
+  copy: Look, we’re not into throwing around scammy claims about how much you’ll
+    lose, let's be real, losing weight is the easy part and we know every person
+    is totally different. It’s keeping it off that’s the real challenge. And we
+    can’t promise you’ll stick with it because, well, you’re the one who’s gotta
+    make that happen.
+  cta:
+    - button_text: Start risk-free
+      url: "#"
+  postscript: "*Offer valid for concierge care services only. Semaglutide cost not
+    included. I mean, we can’t just give that stuff away."
+we_get_it:
+  heading: We totally get it.
+  items:
+    - icon: /img/waistline-alt.svg
+      alt: Flabby waistline icon
+      copy: It’s felt impossible to get the weight off after having kids
+    - icon: /img/tortoise.svg
+      alt: Tortoise icon
+      copy: You feel like your metabolism has slowed down
+      size: 50px
+    - icon: /img/virus.svg
+      alt: Virus icon
+      copy: You gained a lot of bad habits (and weight) during COVID
+    - icon: /img/hormones.svg
+      alt: Hormones icon
+      copy: Your hormones are all out of wack
+nothing_to_lose:
+  heading: Nothing to lose – except the weight, of course
+  copy: Start your transformation for just $21 a day. Lose it and learn how to
+    keep it off for good.
+  cta:
+    - button_text: Chat with us
 made_for_each_other:
   super_heading: Is the program a good fit for me?
   heading: We’re made for each other if…
@@ -284,6 +228,62 @@ guides:
       badge:
         src: /img/carbs-are-life.svg
         alt: "Badge: Gotta Catch ‘Em All"
+title: Home Try Again
+hero:
+  name: hero
+  heading: Finally, a way to lose weight without dieting ever again.
+  lede: We help yo-yo dieters lose weight fast with Semaglutide and build healthy
+    habits to actually keep it off for good.
+  photo: /img/woman-in-glasses-looking-up.png
+  alt: Women in glasses looking up
+  cta:
+    - button_text: Call to Action
+      url: /menu
+series_quit:
+  name: series-quit
+  heading: Maybe, you’re ready to give up
+  items:
+    - icon: /img/circle-arrows.svg
+      copy: Endless cycles of losing and gaining weight your whole life
+    - icon: /img/frowny-face.svg
+      copy: You feel bad eating the foods you love
+    - icon: /img/waistline.svg
+      copy: You’re embarassed with the way you look
+stats:
+  name: stats
+  super_heading: Weight…really?
+  heading: The struggle is real…
+  panels:
+    - stat: 2 in 5
+      copy: of adults in America struggle with obesity (30+ BMI)
+      logos:
+        - logo: /img/frac-logo.png
+          alt: FRAC logo
+    - stat: Over 70%
+      copy: of adults in the US are overweight (27+ BMI)
+      logos:
+        - logo: /img/cdc-logo.png
+          alt: CDC logo
+    - stat: 80%+
+      copy: of people who lose weight will gain it back again within 12 months
+      logos:
+        - logo: /img/stanford-medicine-logo.png
+          alt: Stanford Medicine logo
+      badge:
+        src: /img/badge-weight-loss-hard.svg
+        alt: "Badge: Weight Loss is Hard"
+    - stat: Two-thirds gain it back
+      copy: Without lifestyle modification, weight loss injection medication users
+        gained two-thirds of their weight back within a year
+      logos:
+        - logo: /img/nlom-logo.png
+          alt: National Library of Medicine logo
+    - stat: Nearly half regain even more
+      copy: 40% of people who lose weight gain back even more than they lost during
+        their diet
+      logos:
+        - logo: /img/pub-med-logo.png
+          alt: PubMed logo
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
