@@ -234,19 +234,6 @@ collections:
                   - { label: "Icon", name: "icon", widget: "image" }
                   - { label: "Icon Alt Text", name: "alt", widget: "string", required: false }
                   - { label: "Icon Size:", name: "size", widget: "number", required: false }
-          - label: "Made for Each Other"
-            name: "made_for_each_other"
-            widget: "object"
-            collapsed: true
-            fields:
-              - { label: "Super Heading", name: "super_heading", widget: "string" }
-              - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Items"
-                name: "items"
-                widget: "list"
-                collapsed: true
-                fields:
-                  - { label: "Item", name: "item", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
