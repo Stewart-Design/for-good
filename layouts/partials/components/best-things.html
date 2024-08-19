@@ -11,7 +11,7 @@
   <section class="my-6 position-relative w-100 h-100 d-flex align-items-center w-100" aria-labelledby="best-things-label">    
     <div class="container">
       <div class="row">
-        <div class="col-9 col-xxl mx-auto">
+        <div class="col-9 col-sm-11 col-xxl mx-auto">
           {{ with .badge }}
             {{ $badge = resources.Get .src }}
             {{ $alt = "" }}
@@ -35,8 +35,8 @@
                 </div>
               {{ end }}
             </div>
-            <div class="col-lg-7 d-flex align-items-center">
-              <div class="p-3 pb-5 p-lg-5 p-xl-6 p-xxl-5 position-relative pe-xl-5">
+            <div class="col-lg-7 d-flex align-items-center fs-5">
+              <div class="p-3 pb-5 p-sm-5 p-xl-6 p-xxl-5 position-relative pe-xl-5">
                 <h2 id="best-things-label" class="display-5 recoleta-medium lh-1 mb-4 mt-n1 pb-1 d-inline-block">{{ .heading }}</h2>
                 {{ if .items }}
                   <ul class="fg-ul-green-checkmarks list-unstyled mb-4 poppins-light">

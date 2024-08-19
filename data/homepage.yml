@@ -177,7 +177,6 @@ weight_over:
     many people as possible lose the weight fast – and keep it off for good.
   cta:
     - button_text: Help me change
-      size: btn-lg
       url: "#"
 how_we_re_different:
   super_heading: How we’re different

@@ -33,6 +33,9 @@
 
 .recoleta-light {
   font-family: $recoleta-light !important;
+  strong {
+    font-family: $recoleta-medium !important;
+  }
 }
 
 .recoleta-medium {

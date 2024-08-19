@@ -32,7 +32,7 @@
         {{ $imageAlt = .photo_alt }}
       {{ end }}
       
-      <div class="row my-5 gx-5 gx-xl-6">
+      <div class="row my-5 gx-5 gx-xl-6 fs-5">
         <div class="col-lg-6 {{ $order }} mb-4 mb-lg-0">
           {{ if .testimonial }}
             {{ with .testimonial }}
@@ -43,7 +43,7 @@
                     <div class="p-5">
                       <p class="small">{{ .name }}</p>
                       <img class="mb-3" src="{{ $stars }}" height="20px" width="150px" alt="5-star review icon" />
-                      <blockquote class="recoleta-light fs-5">
+                      <blockquote class="recoleta-light fs-4">
                         “{{ .quote | markdownify }}”
                       </blockquote>
                     </div>
