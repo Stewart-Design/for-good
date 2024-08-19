@@ -117,19 +117,19 @@ mission:
 guides:
   heading: Meet your unexpected guides to finding your soul weight
   guides:
-    - name: Zach “Z-Weezy” Wagner (Med Guy)
+    - name: Dr. Zachary Wagner (Medical Director)
       items:
-        - Pokemon lover
-        - Entrepreneur, med spa owner at Rella Aesthetics
+        - Entrepreneur, med spa owner at [Rella
+          Aesthetics](https://experiencerella.com/)
         - Board-certified physician in obesity and family medicine
         - Career to transform lives through effective weight loss strategies
-        - Currently helping over 400+ patients/mo lose weight fast with
+        - Currently helping over 500+ patients/mo lose weight fast with
           Semaglutide
       photo: img/z-weezy.webp
       photo_alt: Zach posing for a picture with a friend
       badge:
-        src: /img/badge-pokemon.svg
-        alt: "Badge: Gotta Catch ‘Em All"
+        src: ""
+        alt: ""
       logos:
         - logo: /img/abops-logo.webp
           alt: American Board of Physician Specialties logo
