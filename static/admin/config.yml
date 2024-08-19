@@ -74,6 +74,26 @@ collections:
                     fields:
                       - { label: "Logo", name: "logo", widget: "image" }
                       - { label: "Alt Text", name: "alt", widget: "string" }
+          - label: "Keep It Off"
+            name: "keep_it_off"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                fields:
+                  - { label: "Item", name: "item", widget: "string" }
+              - label: "Call to Action"
+                name: "cta"
+                widget: list
+                required: false
+                fields:
+                  - { label: "Button Text", name: "button_text", widget: "string" }
+                  - { label: "Size", name: "size", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
   - label: "Settings"
     name: "settings"
     create: false
