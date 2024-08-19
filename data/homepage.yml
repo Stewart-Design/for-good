@@ -143,6 +143,56 @@ weight_loss_that_works:
   cta:
     - button_text: Sign me up
       url: "#"
+hit_your_goal:
+  super_heading: It’s never been easier to lose weight
+  heading: Hit your goal and ditch diets for good
+  lead: Through our weight loss injections and 1-on-1 concierge care, we’re here
+    to guide you through every step of your journey to a healthy and happy life.
+    No more being hungry all the time, yo-yo dieting, or restrictive eating
+    plans.
+  items:
+    - heading: 1. Chat with an obesity specialist
+      copy: We’ll keep this brief – around 10 or 15 minutes tops. This is just to make
+        sure you qualify, discuss your history, and help you set realistic and
+        achievable goals. Then, you’ll receive your first vial of the med by the
+        end of the week.
+      cta:
+        - button_text: Chat with us
+      photo: /img/specialist-on-laptop.webp
+      photo_alt: Person chatting with specialist on a laptop
+    - heading: 2. Lose weight fast with Semaglutide
+      copy: It really is kinda magical – you can easily lose weight in a few months
+        without being hungry all the time. You can think of it as like training
+        wheels for real life.
+      list:
+        - No committment. Available by the vial.
+        - Silence your ‘food noise’
+        - Tons of resources and support
+      cta:
+        - button_text: $645/vial
+      testimonial:
+        name: Michelle L.
+        quote: Dr. Wagner is **non-judgmental**, took his time getting to understand my
+          goals and how he could help. I've lost over 60 lbs since September
+          with very mild to no side effects. It’s really changed my life!
+    - heading: 3. Keep it off forever with us as your guide
+      copy: Once you’ve reached your target weight, we’ll help you taper off with
+        concierge care, nutrition coaching, and a custom diet plan to help you
+        stay there – forever.
+      list:
+        - Learn how to keep the weight off after semaglutide
+        - Custom diet plan with weekly check-ins
+        - Weekly group coaching calls, FAQ, guest speakers
+        - Access to video archive of all past group calls
+        - 1-on-1 care from licensed obesity physician, food therapist,
+          nutritionist through Spruce
+      cta:
+        - button_text: $945/month
+      testimonial:
+        name: Meredith S.
+        quote: I’ve never felt better about myself – I hit my goal in a few months and
+          have **kept it off** ever since.
+        photo: /img/meredith-s.png
 best_things:
   badge:
     src: /img/badge-welcome-gift.svg
@@ -227,56 +277,6 @@ nothing_to_lose:
   cta:
     - button_text: Chat with us
       url: "#"
-hit_your_goal:
-  super_heading: It’s never been easier to lose weight
-  heading: Hit your goal and ditch diets for good
-  lead: Through our weight loss injections and 1-on-1 concierge care, we’re here
-    to guide you through every step of your journey to a healthy and happy life.
-    No more being hungry all the time, yo-yo dieting, or restrictive eating
-    plans.
-  items:
-    - heading: 1. Chat with an obesity specialist
-      copy: We’ll keep this brief – around 10 or 15 minutes tops. This is just to make
-        sure you qualify, discuss your history, and help you set realistic and
-        achievable goals. Then, you’ll receive your first vial of the med by the
-        end of the week.
-      cta:
-        - button_text: Chat with us
-      photo: /img/specialist-on-laptop.webp
-      photo_alt: Person chatting with specialist on a laptop
-    - heading: 2. Lose weight fast with Semaglutide
-      copy: It really is kinda magical – you can easily lose weight in a few months
-        without being hungry all the time. You can think of it as like training
-        wheels for real life.
-      list:
-        - No committment. Available by the vial.
-        - Silence your ‘food noise’
-        - Tons of resources and support
-      cta:
-        - button_text: $645/vial
-      testimonial:
-        name: Michelle L.
-        quote: Dr. Wagner is non-judgmental, took his time getting to understand my
-          goals and how he could help. I've lost over 60 lbs since September
-          with very mild to no side effects. It’s really changed my life!
-    - heading: 3. Keep it off forever with us as your guide
-      copy: Once you’ve reached your target weight, we’ll help you taper off with
-        concierge care, nutrition coaching, and a custom diet plan to help you
-        stay there – forever.
-      list:
-        - Learn how to keep the weight off after semaglutide
-        - Custom diet plan with weekly check-ins
-        - Weekly group coaching calls, FAQ, guest speakers
-        - Access to video archive of all past group calls
-        - 1-on-1 care from licensed obesity physician, food therapist,
-          nutritionist through Spruce
-      cta:
-        - button_text: $945/month
-      testimonial:
-        name: Meredith S.
-        quote: I’ve never felt better about myself – I hit my goal in a few months and
-          have kept it off ever since.
-        photo: /img/meredith-s.png
 keep_it_off:
   name: keep-it-off
   heading: What if you could lose weight fast and actually keep it off this time?
