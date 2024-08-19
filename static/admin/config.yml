@@ -48,7 +48,7 @@ collections:
                 widget: "list"
                 collapsed: true
                 fields:
-                  - { label: "Icon", name: "icon", widget: "photo" }
+                  - { label: "Icon", name: "icon", widget: "image" }
                   - { label: "Alt Text", name: "alt", widget: "string", required: false }
                   - { label: "Copy", name: "copy", widget: "string" }
                   - { label: "Size", name: "size", widget: "number", required: false }
