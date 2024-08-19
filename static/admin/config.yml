@@ -132,6 +132,15 @@ collections:
                 fields:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Quote", name: "quote", widget: "markdown" }
+          - label: "One in 235 Million"
+            name: "one_in_a_million"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Copy", name: "copy", widget: "markdown" }
+              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Photo Alt", name: "alt", widget: "string" }
   - label: "Settings"
     name: "settings"
     create: false
