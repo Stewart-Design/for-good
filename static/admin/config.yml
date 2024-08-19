@@ -298,20 +298,6 @@ collections:
                       - { label: "Button Text", name: "button_text", widget: "string", required: false }
                       - { label: "Size", name: "size", widget: "string", required: false }
                       - { label: "URL", name: "url", widget: "string", required: false }
-  - name: 'backPages'
-    label: 'Back Pages'
-    folder: "content/pages"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
-      - { label: 'Featured Image', name: 'featured_image', widget: 'image', required: false }
-      - { label: 'Featured Image Alt', name: 'featured_image_alt', widget: 'string', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: "Settings"
     name: "settings"
     create: false
