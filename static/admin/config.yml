@@ -287,8 +287,8 @@ collections:
                     collapsed: true
                     required: false
                     fields:
-                      - { label: "Name", name: "name", widget: "string" }
-                      - { label: "Quote", name: "quote", widget: "markdown" }
+                      - { label: "Name", name: "name", widget: "string", required: false }
+                      - { label: "Quote", name: "quote", widget: "markdown", required: false }
                       - { label: "Photo", name: "photo", widget: "image", required: false }
                   - label: "Call to Action"
                     name: "cta"
