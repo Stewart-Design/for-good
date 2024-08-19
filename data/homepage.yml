@@ -175,8 +175,7 @@ hit_your_goal:
         name: Meredith S.
         quote: I’ve never felt better about myself – I hit my goal in a few months and
           have kept it off ever since.
-        photo:
-          src: /img/meredith-s.png
+        photo: /img/meredith-s.png
 keep_it_off:
   name: keep-it-off
   heading: What if you could lose weight fast and actually keep it off this time?

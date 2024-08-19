@@ -289,13 +289,7 @@ collections:
                     fields:
                       - { label: "Name", name: "name", widget: "string" }
                       - { label: "Quote", name: "quote", widget: "markdown" }
-                      - label: "Photo"
-                        name: "photo"
-                        widget: "object"
-                        collapsed: true
-                        required: false
-                        fields:
-                          - { label: "SRC", name: "src", widget: "image" }
+                      - { label: "Photo", name: "photo", widget: "image", required: false }
                   - label: "Call to Action"
                     name: "cta"
                     widget: list

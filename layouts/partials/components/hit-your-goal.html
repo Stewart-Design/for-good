@@ -49,7 +49,7 @@
                     </div>
                   </div>
                   {{ with .photo }}
-                    {{ $src := resources.Get .src }}
+                    {{ $src := resources.Get . }}
                     <div class="col-12 col-sm-4 rounded-end-4">
                       <div class="bg-primary h-100 rounded-end-4 position-relative">
                         <div class="d-sm-none bg-primary position-absolute h-100 w-100" style="content: ''"></div>
