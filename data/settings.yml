@@ -1,24 +1,26 @@
-description: We help yo-yo dieters lose weight fast with Semaglutide and build healthy habits to actually keep it off for good.
+description: We help yo-yo dieters lose weight fast with Semaglutide and build
+  healthy habits to actually keep it off for good.
 site_menu:
-  - menu_item: About You
+  - menu_item: About you
     url: /
-  - menu_item: Who We Are
+  - menu_item: Who we are
     url: /
-  - menu_item: How It Works
+  - menu_item: What we do
     url: /
-  - menu_item: Disordered Eating Quiz
+  - menu_item: How it works
     url: /
 cta:
   button_text: Take the quiz
-  url:
-footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build healthy habits to actually keep it off for good.
+  url: null
+footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build
+  healthy habits to actually keep it off for good.
 chat:
   title: Chat with us
-  url: "https://"
+  url: https://
 phone: (304) 123-4567
 members:
   title: Members
-  url: "https://"
+  url: https://
 social_media_accounts:
   - platform: Instagram
     username: forgood
