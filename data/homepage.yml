@@ -1,13 +1,13 @@
 title: Home
 hero:
   name: hero
-  heading: Finally, a way to lose weight without dieting ever again.
+  heading: What if you could lose weight fast and actually keep it off this time?
   lede: We help yo-yo dieters lose weight fast with Semaglutide and build healthy
     habits to actually keep it off for good.
   photo: /img/woman-in-glasses-looking-up.png
   alt: Women in glasses looking up
   cta:
-    - button_text: Call to Action
+    - button_text: Start my transformation
       url: /menu
 blob:
   name: blob
@@ -42,9 +42,9 @@ blob:
     - You feel defeated, frustrated, and overwhelmed with your weight
     - You’re ready to do whatever it takes but know you’re gonna need help
       changing
-  cta_heading: Find out why it’s so hard with our Disordered Eating Quiz
+  cta_heading: Want to learn how to make fat loss fast and forever?
   cta:
-    - button_text: Get my results
+    - button_text: Watch webinar (it's totally free!)
       url: ""
 series_quit:
   name: series-quit
@@ -147,7 +147,8 @@ guides:
           obesity/diabetic emergencies
         - 1-on-1 coached hundreds how to lose weight and keep it off (so they
           don’t need me)
-        - "Wrote the book on weight loss: “Ultimate Guide to Weight Loss”"
+        - "Literally wrote the book on weight loss: “The Ultimate Guide to
+          Weight Loss”"
       photo: /img/thick-pick.webp
       photo_alt: Two people stretching
       badge:
@@ -234,7 +235,7 @@ weight_loss_that_works:
       icon_alt: Waistline icon showing thin waist
       copy: Look great in your favorite clothes again
   cta:
-    - button_text: Sign me up
+    - button_text: Get started for as little as $X per month!
       url: "#"
 hit_your_goal:
   super_heading: It’s never been easier to lose weight
@@ -262,7 +263,7 @@ hit_your_goal:
         - Silence your ‘food noise’
         - Tons of resources and support
       cta:
-        - button_text: $645/vial
+        - button_text: Schedule my consultation
       testimonial:
         name: Michelle L.
         quote: Dr. Wagner is **non-judgmental**, took his time getting to understand my
@@ -280,7 +281,7 @@ hit_your_goal:
         - 1-on-1 care from licensed obesity physician, food therapist,
           nutritionist through Spruce
       cta:
-        - button_text: $945/month
+        - button_text: Chat with us
       testimonial:
         name: Meredith S.
         quote: I’ve never felt better about myself – I hit my goal in a few months and
@@ -309,7 +310,7 @@ change_your_life:
     feeling, Target run and done, lunch with the girls, a little pampering here
     and there…
   cta:
-    - button_text: I’m ready
+    - button_text: Let's do this
       url: "#"
 yo_yo_no_mo:
   photo: /img/pizza-slice.png
@@ -365,8 +366,8 @@ made_for_each_other:
     - You may even have type 2 diabetes not well-controlled by other treatments
 nothing_to_lose:
   heading: Nothing to lose – except the weight, of course
-  copy: Start your transformation for **just $21 a day**. Lose it and learn how to
-    keep it off for good.
+  copy: Start your transformation for **just $X a month!** Lose it and learn how
+    to keep it off for good.
   cta:
     - button_text: Chat with us
       url: "#"
