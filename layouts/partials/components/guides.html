@@ -52,7 +52,9 @@
                 {{ end }}
                 {{ with .photo }}
                   {{ $image = resources.Get . }}
-                  <img class="img-fluid rounded-3" leading="lazy" src='{{ ( $image.Fill "960x960 webp Center" ).RelPermalink }}' alt="{{ $imageAlt }}" />
+                  {{ if $image }}
+                    <img class="img-fluid rounded-3" leading="lazy" src='{{ ( $image.Fill "960x960 webp Center" ).RelPermalink }}' alt="{{ $imageAlt }}" />
+                  {{ end }}
                 {{ end }}
                 {{ if eq $verticalPosition "bottom" }}
                   {{ with .badge }}
@@ -61,9 +63,11 @@
                     {{ if .alt }}
                       {{ $alt = .alt }}
                     {{ end }}
-                    <div class="position-relative d-flex align-items-center justify-content-start">
-                      <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
-                    </div>
+                    {{ if $image }}
+                      <div class="position-relative d-flex align-items-center justify-content-start">
+                        <img class="position-absolute" loading="lazy" src="{{ $image.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; {{ $offset }}rem; transform: rotate({{ $rotation }}deg);' />
+                      </div>
+                    {{ end }}
                   {{ end }}
                 {{ end }}
               </div>
@@ -86,7 +90,9 @@
                       {{ end }}
                       {{ with .logo }}
                         {{ $logo = resources.Get . }}
-                        <img class="me-3" loading="lazy" src='{{ ( $logo.Fit "60x60 webp Center" ).RelPermalink }}' alt="{{ $alt }}"/>
+                        {{ if $logo }}
+                          <img class="me-3" loading="lazy" src='{{ ( $logo.Fit "60x60 webp Center" ).RelPermalink }}' alt="{{ $alt }}"/>
+                        {{ end }}
                       {{ end }}
                     {{ end }}
                   </div>
