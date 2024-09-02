@@ -1,6 +1,6 @@
 
 {{ with site.Data.homepage.blob }}
-<section class="py-6" aria-labelledby="blob-label">
+<section id="try" class="py-6" aria-labelledby="blob-label">
   <div class="container">
     <div class="text-center mb-5">
       <h2 id="blob-label" class="recoleta-medium mb-5 display-5">{{ .heading }}</h2>
@@ -20,25 +20,25 @@
       {{ $after := resources.Get .after }}
       {{ $afterAfter := resources.Get .after_after }}
       <div class="row mb-5">
-        <div class="col-xl-4 mx-auto">
+        <div class="col-lg-6 mx-auto">
           <div class="d-flex justify-content-center text-center px-5">
             <div>
               <div class="bg-light ms-lg-n6 ps-lg-6 mb-2">
-                <img loading="lazy" class="img-fluid" width="150px" height="373px" src='{{ ( $before.Fit "150x373 webp Center" ).RelPermalink }}' alt="Before weight loss" />
+                <img loading="lazy" class="img-fluid" width="450px" height="1119px" src='{{ ( $before.Fit "450x1119 webp Center" ).RelPermalink }}' alt="Before weight loss" />
               </div>
               <img loading="lazy" src="/images/before-text.svg" height="16px" alt="" />
               <p class="visually-hidden">Before</p>
             </div>
             <div>
               <div class="bg-light mb-2">
-                <img loading="lazy" class="img-fluid" width="150px" height="373px" src='{{ ( $after.Fit "150x373 webp Center" ).RelPermalink }}' alt="After weight loss" />
+                <img loading="lazy" class="img-fluid" width="450px" height="1119px" src='{{ ( $after.Fit "450x1119 webp Center" ).RelPermalink }}' alt="After weight loss" />
               </div>
               <img loading="lazy" src="/images/after-text.svg" height="16px" alt="" />
               <p class="visually-hidden">After</p>
             </div>
             <div>
               <div class="bg-light me-lg-n6 pe-lg-6 mb-2">
-                <img loading="lazy" class="img-fluid" width="150px" height="373px" src='{{ ( $afterAfter.Fit "150x373 webp Center" ).RelPermalink }}' alt="After after weight loss" />
+                <img loading="lazy" class="img-fluid" width="450px" height="1119px" src='{{ ( $afterAfter.Fit "450x1119 webp Center" ).RelPermalink }}' alt="After after weight loss" />
               </div>
               <img loading="lazy" src="/images/after-after-text.svg" height="16px" alt="" />
               <p class="visually-hidden">After After</p>

@@ -3,12 +3,12 @@
 {{ $imageAlt := "" }}
 {{ $stars := "/icons/star-rating.svg" }}
 {{ with site.Data.homepage.hit_your_goal }}
-<section class="pt-6" aria-labelledby="hit-your-goal-label">
+<section id="hit-your-goal" class="pt-6" aria-labelledby="hit-your-goal-label">
   <div class="container mt-n10">
     <div class="row">
       {{ $image := "images/sticky-note.png" }}
       <div class="col-8 col-lg-5 col-xl-4 mx-auto position-relative d-flex align-items-center justify-content-center">
-        <img class="img-fluid me-n5" loading="lazy" src="{{ $image }}" height="695px" width="1000px" alt="Slice of pizza with dripping cheese" />
+        <img id="sticky-note" class="img-fluid me-n5" loading="lazy" src="{{ $image }}" height="695px" width="1000px" alt="Slice of pizza with dripping cheese" />
       </div>
     </div>
   </div>

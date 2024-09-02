@@ -2,7 +2,7 @@
 {{ $name := "" }}
 
 {{ with site.Data.homepage.average_loss }}
-  <section class="pb-6 text-center" aria-labelledby="average-loss-label">
+  <section id="average-loss" class="pb-6 text-center" aria-labelledby="average-loss-label">
     <div class="container">
       <h2 id="average-loss-label" class="recoleta-light text-center mb-5 display-5">{{ .heading }}{{ if .heading_bold}} <span class="recoleta-medium fw-bold">{{ .heading_bold }}</span>{{ end }}</h2>
       <div class="row">

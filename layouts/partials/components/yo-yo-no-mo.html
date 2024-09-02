@@ -1,6 +1,6 @@
 {{ $image := "" }}
 {{ with site.Data.homepage.yo_yo_no_mo }}
-<section class="text-center pb-5 position-relative bg-light" aria-labelledby="yo-yo-no-mo-label">
+<section id="yo-yo-no-mo" class="text-center pb-5 position-relative bg-light" aria-labelledby="yo-yo-no-mo-label">
   {{ if .photo }}
     {{ $image = resources.Get .photo }}
   {{ end }}

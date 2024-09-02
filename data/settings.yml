@@ -2,13 +2,15 @@ description: We help yo-yo dieters lose weight fast with Semaglutide and build
   healthy habits to actually keep it off for good.
 site_menu:
   - menu_item: About you
-    url: /
-  - menu_item: Who we are
-    url: /
+    url: "#try"
+  - menu_item: Meet Us
+    url: "#mission"
+  - menu_item: How We’re Different
+    url: "#different"
   - menu_item: What we do
-    url: /
-  - menu_item: How it works
-    url: /
+    url: "#sticky-note"
+  - menu_item: Qualifications
+    url: "#made-for-each-other"
 cta:
   button_text: Take the quiz
   url: null

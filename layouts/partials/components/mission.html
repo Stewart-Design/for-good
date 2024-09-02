@@ -1,6 +1,6 @@
 {{ $punchline := "/images/for-good-script.png" }}
 {{ with site.Data.homepage.mission }}
-<section class="pb-6 text-center bg-light" aria-labelledby="mission-label">
+<section id="mission" class="pb-6 text-center bg-light" aria-labelledby="mission-label">
   {{ with .badge }}
     {{ $image := resources.Get .src }}
     {{ $alt := "" }}
