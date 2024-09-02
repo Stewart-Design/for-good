@@ -4,7 +4,7 @@
     <h2 id="weight-loss-that-works-label" class="recoleta-medium display-4 mb-5">{{ .heading }}</h2>
     <div class="row justify-content-center mb-4">
       {{ range .items }}
-        <div class="col-sm-6 col-md-3 mb-4 mb-md-0">
+        <div class="col-sm-6 col-md-3 mb-4 mb-md-0 position-relative">
           {{ if .icon }}
             {{ partial "simple/icon.html" ( dict "icon" .icon "alt" .alt "size" .size ) }}
           {{ end }}
@@ -13,9 +13,11 @@
       {{ end }}
     </div>
     {{ if .cta }}
-      {{ range .cta }}
-        {{ partial "simple/button.html" . }}
-      {{ end }}
+      <div class="position-relative">
+        {{ range .cta }}
+          {{ partial "simple/button.html" . }}
+        {{ end }}
+      </div>
     {{ end }}
   </div>
 </section>
