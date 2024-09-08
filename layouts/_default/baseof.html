@@ -2,6 +2,22 @@
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
   <head>
     {{ partial "head.html" . }}
+    <style>
+      .site-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        transition: transform 0.25s;
+      }
+      .site-nav.is-hidden {
+        transform: translateY(-100%);
+      }
+      .site-nav.is-visible {
+        transform: translateY(0);
+      }
+    </style>
   </head>
   <body class="poppins-regular {{ .Page.Title | urlize }}">
 
@@ -31,6 +47,28 @@
           }
         });
       }
+
+      let scrollPos = 0;
+      const nav = document.querySelector('.site-nav');
+      const navHeight = nav.offsetHeight;
+      const hero = document.getElementById('hero');
+      hero.style.marginTop = navHeight + "px"
+
+      function checkPosition() {
+        let windowY = window.scrollY;
+        if (windowY < scrollPos) {
+          // Scrolling UP
+          nav.classList.add('is-visible');
+          nav.classList.remove('is-hidden');
+        } else {
+          // Scrolling DOWN
+          nav.classList.add('is-hidden');
+          nav.classList.remove('is-visible');
+        }
+        scrollPos = windowY;
+      }
+
+      window.addEventListener('scroll', checkPosition);
     </script>
 
   </body>
