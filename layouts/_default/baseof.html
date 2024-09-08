@@ -56,14 +56,16 @@
 
       function checkPosition() {
         let windowY = window.scrollY;
-        if (windowY < scrollPos && windowY < 100) {
+        if (windowY < scrollPos) {
           // Scrolling UP
           nav.classList.add('is-visible');
           nav.classList.remove('is-hidden');
         } else {
+          if (windowY > 200) {
           // Scrolling DOWN
           nav.classList.add('is-hidden');
           nav.classList.remove('is-visible');
+          }
         }
         scrollPos = windowY;
       }
