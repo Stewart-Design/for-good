@@ -255,7 +255,7 @@ hit_your_goal:
         - Silence your ‘food noise’
         - Quickly reach your ideal weight
         - Get help every step of the way
-        - No long-term commitment
+        - ""
       cta:
         - button_text: Schedule my consultation
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
