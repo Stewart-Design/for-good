@@ -196,15 +196,15 @@ how_we_re_different:
         way.
 one_in_a_million:
   heading: You could be 1 in 235 million
-  copy: That’s oddly specific, isn’t it? Losing weight is tough, but we know the
+  copy: >-
+    That’s oddly specific, isn’t it? Losing weight is tough, but we know the
     first step is actually the easiest. The real challenge is changing your
     life. That's why we're aiming to help 235,000 overweight Americans **build a
     healthy relationship with food** so they can lose the weight and keep it off
-    for good. That number might seem huge but it accounts for just 0.1% of the
-    235 million people struggling with weight loss— but we believe that even
-    small steps can lead to big changes. We might not change the world, but if
-    we can help change someone’s world, we're good with that. Hey, maybe that
-    could be yours.
+    for good. 
+
+
+    That number might seem huge but it accounts for just 0.1% of the 235 million people struggling with weight loss— but we believe that even small steps can lead to big changes. We might not change the world, but if we can help change someone’s world, we're good with that. Hey, maybe that could be yours.
   photo: /img/girl-eating-sandwich.webp
   alt: Girl eating sandwich while smiling
 weight_loss_that_works:
