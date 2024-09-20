@@ -8,7 +8,7 @@ hero:
   alt: Women in glasses looking up
   cta:
     - button_text: Start my transformation
-      url: /menu
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 blob:
   name: blob
   heading: You’ve tried it all – nothing’s working…
@@ -42,10 +42,11 @@ blob:
     - You feel defeated, frustrated, and overwhelmed with your weight
     - You’re ready to do whatever it takes but know you’re gonna need help
       changing
-  cta_heading: Want to learn how to make fat loss fast and forever?
+  cta_heading: Want to learn how to make fat loss fast and forever? Schedule your
+    FREE phone consultation.
   cta:
-    - button_text: Watch webinar (it's totally free!)
-      url: ""
+    - button_text: Book a call
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 series_quit:
   name: series-quit
   heading: Maybe, you’re ready to give up
@@ -107,7 +108,7 @@ keep_it_off:
   cta:
     - button_text: See if I qualify
       size: btn-lg
-      url: ""
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 mission:
   badge:
     src: /img/badge-mission.svg
@@ -157,28 +158,17 @@ guides:
 average_loss:
   heading: Patients lose an average of
   heading_bold: 8-10 lbs/month
-  profiles:
-    - photo: /img/jane-s.webp
-      name: Jane S. (Vacaville, CA)
-      loss: 41 lbs in 6 months
-    - photo: /img/susan-m.webp
-      name: Susan M. (Phoenix, AZ)
-      loss: 36 lbs in 5 months
-    - photo: /img/james-m.webp
-      name: James M. (Los Angeles, CA)
-      loss: 50 lbs in 7 months
-    - photo: /img/alice-s.webp
-      name: Alice S. (Napa, CA)
-      loss: 70 lbs in 8 months
+  profiles: []
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
     just ‘playing around’ on the side for a few years, we coached over 34,064
     people to lose 192,690 lbs on DietBet. Now, we’re going all in to help as
-    many people as possible lose the weight fast – and keep it off for good.
+    many people as possible lose the weight fast – and [keep it off for
+    good](https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097).
   cta:
     - button_text: Help me change
-      url: "#"
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 how_we_re_different:
   super_heading: How we’re different
   heading: “What happens after I reach my ideal weight?”
@@ -235,8 +225,8 @@ weight_loss_that_works:
       icon_alt: Waistline icon showing thin waist
       copy: Look great in your favorite clothes again
   cta:
-    - button_text: Get started for as little as $X per month!
-      url: "#"
+    - button_text: Lose it fast and forever for as little as $2.77 a day!
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 hit_your_goal:
   super_heading: It’s never been easier to lose weight
   heading: Hit your goal and ditch diets for good
@@ -246,24 +236,29 @@ hit_your_goal:
     plans.
   items:
     - heading: 1. Chat with an obesity specialist
-      copy: We’ll keep this brief – around 10 or 15 minutes tops. This is just to make
-        sure you qualify, discuss your history, and help you set realistic and
-        achievable goals. Then, you’ll receive your first vial of the med by the
-        end of the week.
+      copy: "We’ll keep this brief – around 10 or 15 minutes tops. If you qualify, you
+        can get started as early as the next week. "
       cta:
         - button_text: Chat with us
+          url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       photo: /img/specialist-on-laptop.webp
       photo_alt: Person chatting with specialist on a laptop
+      list:
+        - Make sure you qualify (27+ BMI)
+        - Discus medical history and challenges
+        - Set you realistic and achievable goals
     - heading: 2. Lose weight fast with Semaglutide
       copy: It really is kinda magical – you can easily lose weight in a few months
         without being hungry all the time. You can think of it as like training
         wheels for real life.
       list:
-        - No committment. Available by the vial.
         - Silence your ‘food noise’
-        - Tons of resources and support
+        - Quickly reach your ideal weight
+        - Get help every step of the way
+        - No long-term commitment
       cta:
         - button_text: Schedule my consultation
+          url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       testimonial:
         name: Michelle L.
         quote: Dr. Wagner is **non-judgmental**, took his time getting to understand my
@@ -274,14 +269,13 @@ hit_your_goal:
         concierge care, nutrition coaching, and a custom diet plan to help you
         stay there – forever.
       list:
-        - Learn how to keep the weight off after semaglutide
-        - Custom diet plan with weekly check-ins
-        - Weekly group coaching calls, FAQ, guest speakers
-        - Access to video archive of all past group calls
-        - 1-on-1 care from licensed obesity physician, food therapist,
-          nutritionist through Spruce
+        - Personalized nutrition guidance
+        - Weekly check-ins to keep you accountable
+        - 1-on-1 care from licensed obesity physician
+        - Learn how to keep the weight off for good
       cta:
         - button_text: Chat with us
+          url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       testimonial:
         name: Meredith S.
         quote: I’ve never felt better about myself – I hit my goal in a few months and
@@ -289,29 +283,21 @@ hit_your_goal:
         photo: /img/meredith-s.png
 best_things:
   badge:
-    src: /img/badge-welcome-gift.svg
-    alt: "Badge: Welcome Gift"
-  heading: Some of the best things in life are free…
+    src: /img/gifts.webp
+    alt: REMOVE
+  heading: REMOVE THIS SECTION
   photo: /img/gifts.webp
-  alt: Photo of free gifts (Stanley, magazine, scale, measuring tape)
-  items:
-    - item: Stanley Quencher 40oz Tumbler
-      value: ($50 value)
-    - item: Semaglutide Eating Guide
-      value: ($20 value)
-    - item: Digital Food Scale and Tape Measurer
-      value: ($30 value)
-    - item: 7-Day Trial of our Concierge Weight Loss Program
-      value: ($240 value)
-  postscript: That’s $340+ value for new patients!
+  alt: REMOVE
+  items: []
+  postscript: REMOVE
 change_your_life:
-  heading: What if those dollars could change your life for good?
+  heading: What if $2.77 a day could change your life for good?
   copy: We both know you’re already spending it somewhere – that first sip
     feeling, Target run and done, lunch with the girls, a little pampering here
     and there…
   cta:
     - button_text: Let's do this
-      url: "#"
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 yo_yo_no_mo:
   photo: /img/pizza-slice.png
   super_heading: 100% Money-Back Guarantee*
@@ -333,7 +319,7 @@ yo_yo_no_mo:
     So, ditch that scale, grab a slice of pizza (yes, really), and let’s kick off this journey together. Weight loss doesn't have to be suffering – and we're here to prove it.
   cta:
     - button_text: Start risk-free
-      url: "#"
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
   postscript: "*Offer valid for concierge care services only. Semaglutide cost not
     included. I mean, we can’t just give that stuff away."
 we_get_it:
@@ -366,8 +352,8 @@ made_for_each_other:
     - You may even have type 2 diabetes not well-controlled by other treatments
 nothing_to_lose:
   heading: Nothing to lose – except the weight, of course
-  copy: Start your transformation for **just $X a month!** Lose it and learn how
-    to keep it off for good.
+  copy: Start your transformation for **as little as $83.10 a month!** Lose it and
+    learn how to keep it off for good.
   cta:
-    - button_text: Chat with us
-      url: "#"
+    - button_text: Get started
+      url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
