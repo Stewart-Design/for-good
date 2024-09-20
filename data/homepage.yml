@@ -236,22 +236,25 @@ hit_your_goal:
     plans.
   items:
     - heading: 1. Chat with an obesity specialist
-      copy: We’ll keep this brief – around 10 or 15 minutes tops. This is just to make
-        sure you qualify, discuss your history, and help you set realistic and
-        achievable goals. Then, you’ll receive your first vial of the med by the
-        end of the week.
+      copy: "We’ll keep this brief – around 10 or 15 minutes tops. If you qualify, you
+        can get started as early as the next week. "
       cta:
         - button_text: Chat with us
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       photo: /img/specialist-on-laptop.webp
       photo_alt: Person chatting with specialist on a laptop
+      list:
+        - Make sure you qualify (27+ BMI)
+        - Discus medical history and challenges
+        - Set you realistic and achievable goals
     - heading: 2. Lose weight fast with Semaglutide
       copy: It really is kinda magical – you can easily lose weight in a few months
         without being hungry all the time. You can think of it as like training
         wheels for real life.
       list:
         - Silence your ‘food noise’
-        - Accelerate your weight loss transformation
+        - Quickly reach your ideal weight
+        - Get help every step of the way
         - No long-term commitment
       cta:
         - button_text: Schedule my consultation
@@ -266,9 +269,10 @@ hit_your_goal:
         concierge care, nutrition coaching, and a custom diet plan to help you
         stay there – forever.
       list:
-        - Nutrition guidance with weekly check-ins to keep you accountable
-        - Learn how to keep the weight off after you reach your ideal weight
+        - Personalized nutrition guidance
+        - Weekly check-ins to keep you accountable
         - 1-on-1 care from licensed obesity physician
+        - Learn how to keep the weight off for good
       cta:
         - button_text: Chat with us
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
