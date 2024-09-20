@@ -42,10 +42,9 @@ blob:
     - You feel defeated, frustrated, and overwhelmed with your weight
     - You’re ready to do whatever it takes but know you’re gonna need help
       changing
-  cta_heading: Want to learn how to make fat loss fast and forever? Schedule your
-    FREE phone consultation.
+  cta_heading: Want to learn how to make fat loss fast and forever?
   cta:
-    - button_text: Book a call
+    - button_text: Schedule FREE consultation
       url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 series_quit:
   name: series-quit
