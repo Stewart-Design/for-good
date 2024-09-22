@@ -405,6 +405,8 @@ collections:
           preview: false
         fields:
           - { label: "Site Description", name: "description", widget: "text" }
+          - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+          - { label: "Google Analytics ID", name: "google_analytics_id", widget: "string", required: false }
           - label: "Site Menu"
             name: "site_menu"
             widget: "list"
