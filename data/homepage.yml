@@ -308,6 +308,7 @@ hit_your_goal:
           have **kept it off** ever since.
         photo: /img/meredith-s.png
 best_things:
+  hide: true
   badge:
     src: /img/gifts.webp
     alt: REMOVE

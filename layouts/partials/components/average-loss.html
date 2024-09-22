@@ -11,10 +11,10 @@
           {{ if .alt }}
             {{ $alt = .alt }}
           {{ end }}
-          <div class="col-sm-6 col-lg-3">
+          <div class="col-md mb-5 mb-md-0">
             {{ with .photo }}
               {{ $image = resources.Get . }}
-              <img loading="lazy" class="img-fluid rounded-3 mb-3" src='{{ ( $image.Fill "960x640 webp Center" ).RelPermalink }}' alt="Photo of {{ $name }}" />
+              <img loading="lazy" class="img-fluid rounded-3 mb-3" src='{{ ( $image.Fill "500x592 webp Center" ).RelPermalink }}' alt="Photo of {{ $name }}" />
             {{ end }}
             <p>{{ .name }} <span class="d-block fw-bold fs-5">- {{ .loss }}</span></p>
           </div>

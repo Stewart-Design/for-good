@@ -12,8 +12,8 @@ site_menu:
   - menu_item: Qualifications
     url: /#made-for-each-other
 cta:
-  button_text: Take the quiz
-  url: null
+  button_text: Chat with us
+  url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
 footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build
   healthy habits to actually keep it off for good.
 chat:

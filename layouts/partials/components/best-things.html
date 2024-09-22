@@ -2,55 +2,57 @@
 {{ $image := "" }}
 {{ $alt := "" }}
 {{ with site.Data.homepage.best_things }}
-  {{ if .photo }}
-    {{ $image = resources.Get .photo }}
-  {{ end }}
-  {{ if .alt }}
-    {{ $alt = .alt }}
-  {{ end }}
-  <section id="best-things" class="my-6 position-relative w-100 h-100 d-flex align-items-center w-100" aria-labelledby="best-things-label">    
-    <div class="container">
-      <div class="row">
-        <div class="col-9 col-sm-11 col-xxl mx-auto">
-          {{ with .badge }}
-            {{ $badge = resources.Get .src }}
-            {{ $alt = "" }}
-            {{ if .alt }}
-              {{ $alt = .alt }}
-            {{ end }}
-            <div class="position-relative d-flex align-items-center justify-content-start" style="z-index: 99;">
-              <img class="position-absolute" loading="lazy" src="{{ $badge.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; right: -3rem; transform: rotate(20deg);' />
-            </div>
-          {{ end }}
-          <div class="row position-relative border border-1 border-dark rounded-5">
-            <div class="col-lg-5 d-xxl-flex align-items-center justify-content-center">
-              {{ if $image }}
-                <div class="p-5 p-xl-6 me-lg-n5 me-xl-n6 me-xxl-0">
-                  <img
-                    loading="lazy"
-                    class="img-fluid"
-                    src='{{ ( $image.Fit "960x640 webp Center" ).RelPermalink }}'
-                    alt="{{ $alt }}"
-                  />
-                </div>
+  {{ if ne .hide true }}
+    {{ if .photo }}
+      {{ $image = resources.Get .photo }}
+    {{ end }}
+    {{ if .alt }}
+      {{ $alt = .alt }}
+    {{ end }}
+    <section id="best-things" class="mt-6 position-relative w-100 h-100 d-flex align-items-center w-100" aria-labelledby="best-things-label">    
+      <div class="container">
+        <div class="row">
+          <div class="col-9 col-sm-11 col-xxl mx-auto">
+            {{ with .badge }}
+              {{ $badge = resources.Get .src }}
+              {{ $alt = "" }}
+              {{ if .alt }}
+                {{ $alt = .alt }}
               {{ end }}
-            </div>
-            <div class="col-lg-7 d-flex align-items-center fs-5">
-              <div class="p-3 pb-5 p-sm-5 p-xl-6 p-xxl-5 position-relative pe-xl-5">
-                <h2 id="best-things-label" class="display-5 recoleta-medium lh-1 mb-4 mt-n1 pb-1 d-inline-block">{{ .heading }}</h2>
-                {{ if .items }}
-                  <ul class="fg-ul-green-checkmarks list-unstyled mb-4 poppins-light">
-                    {{ range .items }}
-                      <li>{{ .item }} <em>{{ .value }}</em></li>
-                    {{ end }}
-                  </ul>
+              <div class="position-relative d-flex align-items-center justify-content-start" style="z-index: 99;">
+                <img class="position-absolute" loading="lazy" src="{{ $badge.RelPermalink }}" height="120px" width="120px" alt="{{ $alt }}" style='margin-bottom: -1rem; right: -3rem; transform: rotate(20deg);' />
+              </div>
+            {{ end }}
+            <div class="row position-relative border border-1 border-dark rounded-5">
+              <div class="col-lg-5 d-xxl-flex align-items-center justify-content-center">
+                {{ if $image }}
+                  <div class="p-5 p-xl-6 me-lg-n5 me-xl-n6 me-xxl-0">
+                    <img
+                      loading="lazy"
+                      class="img-fluid"
+                      src='{{ ( $image.Fit "960x640 webp Center" ).RelPermalink }}'
+                      alt="{{ $alt }}"
+                    />
+                  </div>
                 {{ end }}
-                <p class="mb-0">{{ .postscript }}</p>
+              </div>
+              <div class="col-lg-7 d-flex align-items-center fs-5">
+                <div class="p-3 pb-5 p-sm-5 p-xl-6 p-xxl-5 position-relative pe-xl-5">
+                  <h2 id="best-things-label" class="display-5 recoleta-medium lh-1 mb-4 mt-n1 pb-1 d-inline-block">{{ .heading }}</h2>
+                  {{ if .items }}
+                    <ul class="fg-ul-green-checkmarks list-unstyled mb-4 poppins-light">
+                      {{ range .items }}
+                        <li>{{ .item }} <em>{{ .value }}</em></li>
+                      {{ end }}
+                    </ul>
+                  {{ end }}
+                  <p class="mb-0">{{ .postscript }}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  {{ end }}
 {{ end }}
