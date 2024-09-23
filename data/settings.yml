@@ -5,13 +5,13 @@ google_analytics_id: null
 site_menu:
   - menu_item: About you
     url: /#try
-  - menu_item: Meet Us
+  - menu_item: Meet us
     url: /#mission
-  - menu_item: How We’re Different
+  - menu_item: How we’re different
     url: /#different
   - menu_item: What we do
     url: /#sticky-note
-  - menu_item: Qualifications
+  - menu_item: See if I qualify
     url: /#made-for-each-other
 cta:
   button_text: Chat with us
