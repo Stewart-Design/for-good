@@ -5,13 +5,13 @@ google_analytics_id: null
 site_menu:
   - menu_item: About you
     url: /#try
-  - menu_item: Meet Us
+  - menu_item: Meet us
     url: /#mission
-  - menu_item: How We’re Different
+  - menu_item: How we’re different
     url: /#different
   - menu_item: What we do
     url: /#sticky-note
-  - menu_item: Qualifications
+  - menu_item: See if I qualify
     url: /#made-for-each-other
 cta:
   button_text: Chat with us
@@ -21,7 +21,7 @@ footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build
 chat:
   title: Chat with us
   url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
-phone: "Text or Call: (602) 344-9152"
+phone: (602) 344-9152
 members:
   title: Members
   url: https://
