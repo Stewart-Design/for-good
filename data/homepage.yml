@@ -287,9 +287,9 @@ hit_your_goal:
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       testimonial:
         name: Natalie D.
-        quote: “Dr. Wagner has helped me reach my weight loss goals with Semaglutide in
-          5 months! I have lost so much (35 pounds) and **gained so much
-          more...confidence, self-esteem, energy!**”
+        quote: Dr. Wagner has helped me reach my weight loss goals with Semaglutide in 5
+          months! I have lost so much (35 pounds) and **gained so much
+          more...confidence, self-esteem, energy!**
     - heading: 3. Keep it off forever with us as your guide
       copy: Once you’ve reached your target weight, we’ll help you taper off with
         concierge care, nutrition coaching, and a custom diet plan to help you
@@ -303,10 +303,11 @@ hit_your_goal:
         - button_text: Chat with us
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       testimonial:
-        name: Meredith S.
-        quote: I’ve never felt better about myself – I hit my goal in a few months and
-          have **kept it off** ever since.
-        photo: /img/meredith-s.png
+        name: Brooklyn P.
+        quote: You can tell these guys **really care** about you. Dr. Zach is so kind
+          and helped me work through a lot of my own self-consciousness along
+          the way.
+        photo: ""
 best_things:
   hide: true
   badge:
