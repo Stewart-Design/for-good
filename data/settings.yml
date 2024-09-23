@@ -1,7 +1,7 @@
 description: We help yo-yo dieters lose weight fast with Semaglutide and build
   healthy habits to actually keep it off for good.
-featured_image:
-google_analytics_id:
+featured_image: null
+google_analytics_id: null
 site_menu:
   - menu_item: About you
     url: /#try
@@ -21,7 +21,7 @@ footer_copy: We help yo-yo dieters lose weight fast with Semaglutide and build
 chat:
   title: Chat with us
   url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
-phone: (480) 925-8150
+phone: (602) 344-9152
 members:
   title: Members
   url: https://
