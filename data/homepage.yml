@@ -159,14 +159,14 @@ average_loss:
   heading_bold: 8-10 lbs/month
   profiles:
     - photo: /img/before_after_1.png
-      name: Name N.
+      name: Stacie C.
       loss: -X lbs in Y months
     - photo: /img/before_after_2.png
       loss: -X lbs in Y months
       name: Name N.
     - photo: /img/before_after_3.png
       name: Michael P. (Co-Founder)
-      loss: -X lbs in Y months
+      loss: -50 lbs in 8 months
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
