@@ -267,7 +267,7 @@ hit_your_goal:
       copy: We’ll keep it brief—about 10-15 minutes. If you qualify, you can start as
         soon as next week.
       cta:
-        - button_text: Chat with us
+        - button_text: Get started
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       photo: /img/specialist-on-laptop.webp
       photo_alt: Person chatting with specialist on a laptop
@@ -286,7 +286,7 @@ hit_your_goal:
         - Enjoy weekly check-ins to keep you on track
         - Text or call anytime when you need help
       cta:
-        - button_text: Schedule my consultation
+        - button_text: See if I qualify
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       testimonial:
         name: Natalie D.
@@ -304,7 +304,7 @@ hit_your_goal:
         - Establish healthy habits to keep you on track
         - Get 1-on-1 care from a licensed obesity physician
       cta:
-        - button_text: Chat with us
+        - button_text: Get started
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       testimonial:
         name: Brooklyn P.
