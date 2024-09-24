@@ -434,6 +434,10 @@ collections:
             name: "phone"
             widget: "string"
             required: false
+          - label: "Email"
+            name: "email"
+            widget: "string"
+            required: false
           - label: "Members"
             name: "members"
             widget: "object"

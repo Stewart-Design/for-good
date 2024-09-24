@@ -29,7 +29,10 @@
                     <li><a href="{{ .url }}" class="{{ $linkClasses }}">{{ .title }}</a></li>
                   {{ end }}
                   {{ with .phone }}
-                    <li><a href="tel:{{ . }}" class="{{ $linkClasses }}">{{ . }}</a></li>
+                    <li><a href="tel:{{ . | urlize }}" class="{{ $linkClasses }}">{{ . }}</a></li>
+                  {{ end }}
+                  {{ with .email }}
+                    <li><a href="mailto:{{ .url }}" class="{{ $linkClasses }}">{{ .title }}</a></li>
                   {{ end }}
                   {{ with .members }}
                     <li><a href="{{ .url }}" class="{{ $linkClasses }}">{{ .title }}</a></li>
