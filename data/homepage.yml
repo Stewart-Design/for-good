@@ -335,25 +335,21 @@ yo_yo_no_mo:
   super_heading: 100% Money-Back Guarantee*
   heading: Yo-yo no ‘mo? Fo sho.
   copy: >-
-    Look, we’re not into throwing around scammy claims about how much you’ll
-    lose, let's be real, losing weight is the easy part and we know every person
-    is totally different. It’s keeping it off that’s the real challenge. And we
-    can’t promise you’ll stick with it because, well, you’re the one who’s gotta
-    make that happen. 
+    Look, we’re not into making scammy claims about how much you’ll lose. Let’s
+    be real: losing weight is the easy part, and everyone is different. The real
+    challenge is *keeping it off*. We can’t promise you’ll stick with it because
+    you’re the one who has to make that happen. 
 
 
-    Here’s what we can promise: a program you’ll love, a new way to look at food, results that make you feel awesome, and a little hand holding – especially when things get tough. 
+    What we can promise is a program you’ll love, a fresh perspective on food, results that make you feel great, and support when things get tough. If after 30 days in our concierge nutrition program you’re not seeing real changes, feeling pumped, or learning something new about your food journey, no worries – full refund (minus meds).
 
 
-    **If after 30 days in our concierge nutrition program you’re not seeing real changes, feeling pumped, or learning something new about your food journey, no worries – full refund** (minus meds).
-
-
-    So, ditch that scale, grab a slice of pizza (yes, really), and let’s kick off this journey together. Weight loss doesn't have to be suffering – and we're here to prove it.
+    So, ditch the scale, grab a slice of pizza (yes, really), and let’s kick off this journey together. Weight loss doesn’t have to be suffering, and we’re here to prove it.
   cta:
     - button_text: Start risk-free
       url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
-  postscript: "*Offer valid for concierge care services only. Semaglutide cost not
-    included. I mean, we can’t just give that stuff away."
+  postscript: "*Offer valid for concierge nutrition services only. Medication cost
+    not included. I mean, we can’t just give that stuff away."
 we_get_it:
   heading: We totally get it.
   items:
