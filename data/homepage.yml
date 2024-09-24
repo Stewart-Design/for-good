@@ -264,26 +264,27 @@ hit_your_goal:
     plans.
   items:
     - heading: 1. Chat with an obesity specialist
-      copy: "We’ll keep this brief – around 10 or 15 minutes tops. If you qualify, you
-        can get started as early as the next week. "
+      copy: We’ll keep it brief—about 10-15 minutes. If you qualify, you can start as
+        soon as next week.
       cta:
         - button_text: Chat with us
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
       photo: /img/specialist-on-laptop.webp
       photo_alt: Person chatting with specialist on a laptop
       list:
-        - Make sure you qualify (27+ BMI)
-        - Discus medical history and challenges
-        - Set you realistic and achievable goals
+        - Make sure you're a good fit for the program (27+ BMI)
+        - Talk through your medical history and challenges
+        - Help you set goals that are realistic and doable
     - heading: 2. Lose weight fast with Semaglutide
-      copy: It really is kinda magical – you can easily lose weight in a few months
-        without being hungry all the time. You can think of it as like training
-        wheels for real life.
+      copy: It’s pretty amazing—you can lose weight in just a few months without
+        feeling hungry all the time. Think of it as training wheels for real
+        life.
       list:
-        - Silence your ‘food noise’
-        - Quickly reach your ideal weight
-        - Get help every step of the way
-        - ""
+        - Quiet your constant ‘food noise’
+        - Reach your ideal weight without crazy diets
+        - Get 1-on-1 support every step of the way
+        - Enjoy weekly check-ins to keep you on track
+        - Text or call anytime when you need help
       cta:
         - button_text: Schedule my consultation
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
@@ -293,14 +294,15 @@ hit_your_goal:
           months! I have lost so much (35 pounds) and **gained so much
           more...confidence, self-esteem, energy!**
     - heading: 3. Keep it off forever with us as your guide
-      copy: Once you’ve reached your target weight, we’ll help you taper off with
-        concierge care, nutrition coaching, and a custom diet plan to help you
-        stay there – forever.
+      copy: Once you reach your target weight, we’ll help you taper off medication or
+        spot dose as needed, with concierge care, nutrition coaching, and a
+        custom diet plan to help you stay there for good.
       list:
-        - Personalized nutrition guidance
-        - Weekly check-ins to keep you accountable
-        - 1-on-1 care from licensed obesity physician
-        - Learn how to keep the weight off for good
+        - Restore a healthy relationship with food
+        - Learn how to maintain your weight for life
+        - Create a custom diet plan that works for you
+        - Establish healthy habits to keep you on track
+        - Get 1-on-1 care from a licensed obesity physician
       cta:
         - button_text: Chat with us
           url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
