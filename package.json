@@ -16,8 +16,12 @@
   },
   "homepage": "https://github.com/Stewart-Design/for-good#readme",
   "dependencies": {
+    "micromatch": ">=4.0.8",
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "postcss": "^8.4.39",
     "postcss-cli": "^11.0.0"
+  },
+  "devDependencies": {
+    "micromatch": ">=4.0.8"
   }
 }
