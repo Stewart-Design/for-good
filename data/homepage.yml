@@ -165,10 +165,10 @@ average_loss:
   profiles:
     - photo: /img/before_after_1.png
       name: Stacie C.
-      loss: X lbs in Y months
+      loss: 27 lbs in 100 days
     - photo: /img/before_after_2.png
-      loss: X lbs in Y months
-      name: Name N.
+      loss: 46 lbs in 8 months
+      name: Marissa S.
     - photo: /img/before_after_3.png
       name: Michael P. (Co-Founder)
       loss: 50 lbs in 8 months
