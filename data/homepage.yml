@@ -37,7 +37,7 @@ blob:
     after_after: /img/after-after.webp
   heading_2: It feels impossible to stay in shape
   struggles:
-    - You’ve struggled with your weight your whole life but it’s gotten even
+    - You’ve struggled with your weight your whole life, but it’s gotten even
       worse since you started your family
     - You’ve tried just about every diet under the sun and they’ve worked – for
       a while
@@ -175,9 +175,9 @@ average_loss:
 weight_over:
   heading: The weight is over
   copy: Weight loss has always been one of our passions. In our first business
-    just ‘playing around’ on the side for a few years, we coached over 34,064
-    people to lose 192,690 lbs on DietBet. Now, we’re going all in to help as
-    many people as possible lose the weight fast–and keep it off for good.
+    just ‘playing around’ on the side for a few years, we coached 34,064 people
+    to lose 192,690 lbs on DietBet. Now, we’re going all in to help as many
+    people as possible lose the weight fast–and keep it off for good.
   cta:
     - button_text: Help me change
       url: https://app.elationemr.com/book/761044307345412?appointment_types=772703672533097
@@ -186,9 +186,9 @@ how_we_re_different:
   heading: “What happens after I reach my ideal weight?”
   lead: That’s the elephant in the room, isn’t it? We know **you can grab the med
     anywhere these days, diets work for a while, and anyone can help you lose
-    weight** but no one’s teaching people how to actually keep the weight off
+    weight,** but no one’s teaching people how to actually keep the weight off
     after you lose it. It seems like most companies don’t even care – they know
-    you’ll just keep come back again like you always have.
+    you’ll just keep coming back again like you always have.
   reviews:
     - name: Jennifer R.
       quote: Weight has been a **constant battle my whole life**. I lost over 50 lbs
@@ -227,9 +227,9 @@ one_in_a_million:
   copy: >-
     That’s oddly specific, isn’t it? Losing weight is tough, but we know the
     first step is actually the easiest. The real challenge is changing your
-    life. That's why we're aiming to help 235,000 overweight Americans **build a
-    healthy relationship with food** so they can lose the weight and keep it off
-    for good. 
+    life. That's why we're aiming to help 235,000 overweight Americans **restore
+    a healthy relationship with food** so that they can lose the weight and keep
+    it off for good. 
 
 
     That number might seem huge but it accounts for just 0.1% of the 235 million people struggling with weight loss— but we believe that even small steps can lead to big changes. We might not change the world, but if we can help change someone’s world, we're good with that. Hey, maybe that could be yours.
@@ -365,7 +365,7 @@ we_get_it:
       copy: You gained a lot of bad habits (and weight) during COVID
     - icon: /img/hormones.svg
       alt: Hormones icon
-      copy: Your hormones are all out of wack
+      copy: Your hormones are all out of whack
 made_for_each_other:
   super_heading: Is the program a good fit for me?
   heading: We’re made for each other if…
