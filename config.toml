@@ -1,6 +1,8 @@
-baseURL = 'https://forgoodweight.com/'
+baseURL = 'https://forgoodweightloss.com/'
 languageCode = 'en-us'
 title = 'For Good'
+
+enableRobotsTXT = true
 
 [params]
   defaultButtonClasses = "btn btn-outline-pink border-2 mb-1 rounded-pill"
